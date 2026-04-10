@@ -47,12 +47,13 @@ jobs:
         with:
           node-version: 18
 
-      # 3️⃣ Install dependencies - uses 'npm ci' for clean, consistent installs
+# 3️⃣ Install dependencies
       - name: Install dependencies
-        run: npm ci
+        run: |
+          npm install
+          npm install browserstack-cypress-cli --save-dev
 
       # 4️⃣ Run BrowserStack Cypress tests
-      # This block detects if it's a normal run or a rerun triggered from BrowserStack
       - name: Run BrowserStack Cypress tests
         run: |
           if [ "${{ github.event.inputs['browserstack-rerun-tests'] }}" != "" ]; then
