@@ -45,17 +45,23 @@ jobs:
         with:
           node-version: 18
 
-      # Use a simple install to ensure the project structure is valid
-      - name: Install Dependencies
-        run: npm install
+      - name: Force Clean Install
+        run: |
+          # 1. Wipe out any existing broken local links
+          rm -rf node_modules package-lock.json
+          
+          # 2. Install ONLY the essential CLI tool fresh from NPM
+          npm install browserstack-cypress-cli
+          
+          # 3. If your tests need other dependencies, install them too:
+          # npm install cypress 
 
       - name: Run BrowserStack Cypress tests
         run: |
-          # The correct package name is browserstack-cypress-cli
           if [ "${{ github.event.inputs['browserstack-rerun-tests'] }}" != "" ]; then
             echo "Rerunning specific failed tests..."
-            npx browserstack-cypress-cli run --spec "${{ github.event.inputs['browserstack-rerun-tests'] }}" --sync
+            ./node_modules/.bin/browserstack-cypress run --spec "${{ github.event.inputs['browserstack-rerun-tests'] }}" --sync
           else
             echo "Running full regression suite..."
-            npx browserstack-cypress-cli run --spec "cypress/e2e/regressionSuites/desktop/prosightSafety/**/*.cy.js" --sync
+            ./node_modules/.bin/browserstack-cypress run --spec "cypress/e2e/regressionSuites/desktop/prosightSafety/**/*.cy.js" --sync
           fi
