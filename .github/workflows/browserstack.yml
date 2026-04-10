@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - main
       - development
   pull_request:
 
@@ -27,7 +27,6 @@ env:
  STAFF_BLUEPRINT_ID_DEV: ${{ secrets.STAFF_BLUEPRINT_ID_DEV }}
  ASSET_BLUEPRINT_ID_STAGE: ${{ secrets.ASSET_BLUEPRINT_ID_STAGE }}
  ASSET_BLUEPRINT_ID_DEV: ${{ secrets.ASSET_BLUEPRINT_ID_DEV }}
- NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
 jobs:
   cypress-run:
@@ -44,11 +43,6 @@ jobs:
         with:
           node-version: 18
           registry-url: 'https://registry.npmjs.org'
-
-      # 3️⃣ Configure npm for private packages
-      - name: Configure npm authentication
-        run: |
-          npm config set //registry.npmjs.org/:_authToken ${{ secrets.NPM_TOKEN }}
 
       # 4️⃣ Install dependencies
       - name: Install dependencies
