@@ -1,0 +1,122 @@
+{
+  "staffTag1": {
+    "deviceId": "StaffTag1",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor",
+    "locationName": "QaStaffManagement_Room1",
+    "previousRoomName": "QaStaffManagement_Room2",
+    "departmentName": "QA_StaffManagment_Department",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "staffTag2": {
+    "deviceId": "StaffTag2",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor",
+    "locationName": "QaStaffManagement_Room1",
+    "previousRoomName": "QaStaffManagement_Room2",
+    "departmentName": "QA_StaffManagment_Department",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "staffTag3": {
+    "deviceId": "StaffTag3",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor",
+    "locationName": "QaStaffManagement_Room1",
+    "previousRoomName": "QaStaffManagement_Room2",
+    "departmentName": "QA_StaffManagment_Department",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "staffTag4": {
+    "deviceId": "StaffTag4",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor",
+    "locationName": "QaStaffManagement_Room1",
+    "previousRoomName": "QaStaffManagement_Room2",
+    "departmentName": "QA_StaffManagment_Department",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "staffTag5": {
+    "deviceId": "SMARTHOSP-8811-Tag",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor",
+    "locationName": "QaStaffManagement_Room1",
+    "previousRoomName": "QaStaffManagement_Room2",
+    "departmentName": "QA_StaffManagment_Department",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "staffTag6": {
+    "deviceId": "SMARTHOSP-8840-Tag1",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor",
+    "locationName": "QaStaffManagement_Room1",
+    "previousRoomName": "QaStaffManagement_Room2",
+    "departmentName": "QA_StaffManagment_Department",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "staffTag7": {
+    "deviceId": "SMARTHOSP-8840-Tag2",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor",
+    "locationName": "QaStaffManagement_Room1",
+    "previousRoomName": "QaStaffManagement_Room2",
+    "departmentName": "QA_StaffManagment_Department",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "staffTag8": {
+    "deviceId": "SMARTHOSP-8898-Tag1",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor",
+    "locationName": "QaStaffManagement_Room1",
+    "previousRoomName": "QaStaffManagement_Room2",
+    "departmentName": "QA_StaffManagment_Department",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "staffTag9": {
+    "deviceId": "SMARTHOSP-8898-Tag2",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor",
+    "locationName": "QaStaffManagement_Room1",
+    "previousRoomName": "QaStaffManagement_Room2",
+    "departmentName": "QA_StaffManagment_Department",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "staffTag10": {
+    "deviceId": "SMARTHOSP-8898-Tag3",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor",
+    "locationName": "QaStaffManagement_Room1",
+    "previousRoomName": "QaStaffManagement_Room2",
+    "departmentName": "QA_StaffManagment_Department",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  }
+}

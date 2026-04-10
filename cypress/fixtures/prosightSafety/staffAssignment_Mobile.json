@@ -1,0 +1,169 @@
+{
+  "hospitalName": "Oschner Lafayette General1",
+  "departmentName": "QA_StaffManagment_Dept_Mobile",
+  "departmentBoundaryName": "QA_StaffManagment_Boundary_Mobile",
+  "buildingName": "BRACC",
+  "buildingId": "4UAoO7IFOStsrb3tyREwiO",
+  "floorDetails": {
+    "floorName": "StaffManagement_Floor_Mobile",
+    "floorNumber": "staff222"
+  },
+  "roomDetails": {
+    "roomTypeName": "QA_StaffManagement_Room_Mobile",
+    "assetStatus": "Available",
+    "utilizationState": "Not Utilized",
+    "monitorCompliance": "No"
+  },
+  "locationDetails": {
+    "roomName_1": "QaStaffManagementMobile_Room1",
+    "roomName_2": "QaStaffManagementMobile_Room2",
+    "roomType": "QA_STaffManagement_Room_Mobile"
+  },
+  "staff_Type": "QA_StaffManagmentMobile_Type",
+  "staff1": {
+    "staffName": "SMARTHOSP-8811-StaffM1",
+    "staffId": "M88111",
+    "staffType": "QA_StaffManagmentMobile_Type",
+    "department": "QA_StaffManagment_Dept_Mobile",
+    "email": "staffmail123@gmail.com",
+    "phoneNumber": "7976868778"
+  },
+  "staff2": {
+    "staffName": "SMARTHOSP-8811-StaffM2",
+    "staffId": "M88112",
+    "staffType": "QA_StaffManagmentMobile_Type",
+    "department": "QA_StaffManagment_Dept_Mobile",
+    "email": "staffmail123@gmail.com",
+    "phoneNumber": "7976868778"
+  },
+  "staff3": {
+    "staffName": "SMARTHOSP-8821-StaffM1",
+    "staffId": "M882156",
+    "department": "QA_StaffManagment_Dept_Mobile",
+    "staffType": "QA_StaffManagmentMobile_Type"
+  },
+  "staffsForEditTestCase": {
+    "staff4": {
+      "newStaffName": "SMARTHOSP-88222-StaffM2",
+      "newStaffId": "M882157",
+      "newDepartment": "QA_StaffManagment_Dept_Mobile",
+      "newStaffType": "Physician"
+    }
+  },
+  "staff5": {
+    "staffName": "SMARTHOSP-8840-StaffM1",
+    "staffId": "M884056",
+    "department": "QA_StaffManagment_Dept_Mobile",
+    "staffType": "QA_StaffManagmentMobile_Type"
+  },
+  "staff6": {
+    "staffName": "SMARTHOSP-8840-StaffM2",
+    "staffId": "M884057",
+    "department": "QA_StaffManagment_Dept_Mobile",
+    "staffType": "QA_StaffManagmentMobile_Type"
+  },
+  "staff7": {
+    "staffName": "SMARTHOSP-8840-StaffM3",
+    "staffId": "M8840509",
+    "department": "QA_StaffManagment_Dept_Mobile",
+    "staffType": "QA_StaffManagmentMobile_Type"
+  },
+  "staff8": {
+    "staffName": "SMARTHOSP-8890-StaffM1",
+    "staffId": "M884058",
+    "department": "QA_StaffManagment_Dept_Mobile",
+    "staffType": "SMARTHOSP-8890-staffTypeM2"
+  },
+  "staff9": {
+    "staffName": "SMARTHOSP-8898-StaffM1",
+    "staffId": "M88981",
+    "department": "QA_StaffManagment_Dept_Mobile",
+    "staffType": "QA_StaffManagmentMobile_Type"
+  },
+  "staff10": {
+    "staffName": "SMARTHOSP-8898-StaffM2",
+    "staffId": "M88982",
+    "department": "QA_StaffManagment_Dept_Mobile",
+    "staffType": "QA_StaffManagmentMobile_Type"
+  },
+  "staffTypeData": {
+    "name1": "SMARTHOSP-8880-staffTypeM1",
+    "name2": "SMARTHOSP-8880-staffTypeM2",
+    "name3": "SMARTHOSP-8880-staffTypeM3",
+    "name4": "SMARTHOSP-8880-staffTypeM4",
+    "name5": "SMARTHOSP-8890-staffTypeM1",
+    "name6": "SMARTHOSP-8890-staffTypeM2"
+  },
+  "staffTag5": {
+    "deviceId": "SMARTHOSP-8811-MTag",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor_Mobile",
+    "locationName": "QaStaffManagementMobile_Room1",
+    "previousRoomName": "QaStaffManagementMobile_Room1",
+    "departmentName": "QA_StaffManagment_Dept_Mobile",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "staffTag6": {
+    "deviceId": "SMARTHOSP-8840-MTag1",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor_Mobile",
+    "locationName": "QaStaffManagementMobile_Room1",
+    "previousRoomName": "QaStaffManagementMobile_Room1",
+    "departmentName": "QA_StaffManagment_Dept_Mobile",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "staffTag7": {
+    "deviceId": "SMARTHOSP-8840-MTag2",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor_Mobile",
+    "locationName": "QaStaffManagementMobile_Room1",
+    "previousRoomName": "QaStaffManagementMobile_Room1",
+    "departmentName": "QA_StaffManagment_Dept_Mobile",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "staffTag8": {
+    "deviceId": "SMARTHOSP-8898-MTag1",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor_Mobile",
+    "locationName": "QaStaffManagementMobile_Room1",
+    "previousRoomName": "QaStaffManagementMobile_Room1",
+    "departmentName": "QA_StaffManagment_Dept_Mobile",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "staffTag9": {
+    "deviceId": "SMARTHOSP-8898-MTag2",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor_Mobile",
+    "locationName": "QaStaffManagementMobile_Room1",
+    "previousRoomName": "QaStaffManagementMobile_Room1",
+    "departmentName": "QA_StaffManagment_Dept_Mobile",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "staffTag10": {
+    "deviceId": "SMARTHOSP-8898-MTag3",
+    "type": "Staff Tag",
+    "manufacturer": "Kontak",
+    "model": "Smart Badge",
+    "floorName": "StaffManagement_Floor_Mobile",
+    "locationName": "QaStaffManagementMobile_Room1",
+    "previousRoomName": "QaStaffManagementMobile_Room1",
+    "departmentName": "QA_StaffManagment_Dept_Mobile",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  }
+}

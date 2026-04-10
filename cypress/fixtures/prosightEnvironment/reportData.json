@@ -1,0 +1,241 @@
+{
+  "hospitalName": "Oschner Lafayette General1",
+  "departmentName": "QA_EqpReports_Department",
+  "departmentBoundaryName": "QA_EqpReports_Boundary",
+  "buildingName": "BRACC",
+  "floorDetails": {
+    "floorName": "EqpReports_Floor",
+    "floorNumber": "eqpReportFloor123"
+  },
+  "roomDetails": {
+    "roomTypeName": "QA_EqpReports_Room",
+    "assetStatus": "Available",
+    "utilizationState": "Not Utilized",
+    "monitorCompliance": "No"
+  },
+  "locationDetails": {
+    "roomName_1": "QaEqpReports_Room1",
+    "roomName_2": "QaEqpReports_Room2",
+    "roomType": "QA_EqpReports_Room"
+  },
+  "equipment_Type": "QAEqpReportsType",
+  "equipmentData": {
+    "equipmentName": "SMARTHOSP-10244-equipment",
+    "id": "10244",
+    "type": "QAEqpReportsType",
+    "isRented": false,
+    "minTemp": 4,
+    "maxTemp": 15,
+    "buildingName": "BRACC",
+    "floorName": "EqpReports_Floor",
+    "departmentName": "QA_EqpReports_Department",
+    "locationName": "QaEqpReports_Room1"
+  },
+  "IEMReports": {
+    "report1": {
+      "reportType": "Environmental Report",
+      "reportName": "SMARTHOSP-8594-report01",
+      "scheduleType": "One-Time Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com"
+    },
+    "report2": {
+      "reportType": "Alerts Report",
+      "reportName": "SMARTHOSP-8594-report02",
+      "scheduleType": "One-Time Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com"
+    },
+    "report3": {
+      "reportType": "Compliance Report",
+      "reportName": "SMARTHOSP-8594-report03",
+      "scheduleType": "One-Time Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com"
+    },
+    "report4": {
+      "reportType": "Calibration Report",
+      "reportName": "SMARTHOSP-8594-report04",
+      "scheduleType": "One-Time Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com"
+    }
+  },
+  "recurringReports": {
+    "report1": {
+      "reportType": "Environmental Report",
+      "reportName": "SMARTHOSP-8594-report05",
+      "scheduleType": "Recurring Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com",
+      "frequency": "Daily"
+    },
+    "report2": {
+      "reportType": "Alerts Report",
+      "reportName": "SMARTHOSP-8594-report06",
+      "scheduleType": "Recurring Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com",
+      "frequency": "Daily"
+    },
+    "report3": {
+      "reportType": "Compliance Report",
+      "reportName": "SMARTHOSP-8594-report07",
+      "scheduleType": "Recurring Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com",
+      "frequency": "Daily"
+    },
+    "report4": {
+      "reportType": "Calibration Report",
+      "reportName": "SMARTHOSP-8594-report08",
+      "scheduleType": "Recurring Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com",
+      "frequency": "Daily"
+    }
+  },
+  "scheduleReports": {
+    "report1": {
+      "reportType": "Environmental Report",
+      "reportName": "SMARTHOSP-8365-report09",
+      "scheduleType": "One-Time Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com"
+    },
+    "report2": {
+      "reportType": "Alerts Report",
+      "reportName": "SMARTHOSP-8365-report10",
+      "scheduleType": "One-Time Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com"
+    },
+    "report3": {
+      "reportType": "Compliance Report",
+      "reportName": "SMARTHOSP-8365-repor11",
+      "scheduleType": "One-Time Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com"
+    },
+    "report4": {
+      "reportType": "Calibration Report",
+      "reportName": "SMARTHOSP-8365-repor12",
+      "scheduleType": "One-Time Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com"
+    }
+  },
+  "scheduleReportsRecurring": {
+    "report1": {
+      "reportType": "Environmental Report",
+      "reportName": "SMARTHOSP-8594-report13",
+      "scheduleType": "Recurring Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com",
+      "frequency": "Daily"
+    },
+    "report2": {
+      "reportType": "Alerts Report",
+      "reportName": "SMARTHOSP-8594-report14",
+      "scheduleType": "Recurring Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com",
+      "frequency": "Daily"
+    },
+    "report3": {
+      "reportType": "Compliance Report",
+      "reportName": "SMARTHOSP-8594-repor15",
+      "scheduleType": "Recurring Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com",
+      "frequency": "Daily"
+    },
+    "report4": {
+      "reportType": "Calibration Report",
+      "reportName": "SMARTHOSP-8594-report16",
+      "scheduleType": "Recurring Report",
+      "department": "10 West South Therapy",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "smarthosp2021@gmail.com",
+      "frequency": "Daily"
+    }
+  },
+  "reportsForEditTestCase": {
+    "report1": {
+      "reportType": "Environmental Report",
+      "reportName": "SMARTHOSP-8672-D",
+      "scheduleType": "Recurring Report",
+      "department": "QA_EqpReports_Department",
+      "departmentId": "3LkHxSkKhYebE96hXh6JIk",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "equipmentId": "1jDqELbtehlUcjGH6A4hrS",
+      "email": "nk46268@gmail.com"
+    },
+    "report1Edit": {
+      "reportName": "SMARTHOSP Edit",
+      "email": "tester@gmail.com",
+      "scheduleType": "Recurring Report"
+    }
+  },
+  "reportForDelTestCases": {
+    "report1": {
+      "reportType": "Environmental Report",
+      "reportName": "SMARTHOSP-8681-report17",
+      "scheduleType": "Recurring Report",
+      "department": "QA_EqpReports_Department",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "nk48@gmail.com"
+    },
+    "report2": {
+      "reportType": "Environmental Report",
+      "reportName": "SMARTHOSP-9691-report18",
+      "scheduleType": "One-Time Report",
+      "department": "QA_EqpReports_Department",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "nk46268@gmail.com"
+    },
+    "report3": {
+      "reportType": "Environmental Report",
+      "reportName": "SMARTHOSP-96910-report19",
+      "scheduleType": "Recurring Report",
+      "department": "QA_EqpReports_Department",
+      "equipmentType": "QAEqpReportsType",
+      "equipmentName": "SMARTHOSP-10244-equipment",
+      "email": "nk46268@gmail.com"
+    }
+  }
+}

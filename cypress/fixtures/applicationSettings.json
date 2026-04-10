@@ -1,0 +1,167 @@
+{
+    "enableSettingsOnSafety": {
+        "assetSettings": {
+            "assetAlertTypes": "all",
+            "assetTypes": "all",
+            "assetDepartments": "all",
+            "assetEmail": false,
+            "assetPush": false,
+            "assetText": false
+        },
+        "safetySettings": {
+            "safetyAlertTypes": "all",
+            "staffTypes": "all",
+            "safetyDepartments": "all",
+            "safetyEmail": true,
+            "safetyPush": true,
+            "safetyText": true
+        },
+        "environmentSettings": {
+            "environmentAlertTypes": "all",
+            "equipmentTypes": "all",
+            "environmentDepartments": "all",
+            "environmentEmail": false,
+            "environmentPush": false,
+            "environmentText": false
+        },
+        "adminSettings": {
+            "adminAlertTypes": "all",
+            "adminDepartments": "all",
+            "adminEmail": false,
+            "adminPush": false,
+            "adminText": false
+        }
+    },
+    "disableAllTheSettings": {
+        "disableAssetSettings": {
+            "assetAlertTypes": "all",
+            "assetTypes": "all",
+            "assetDepartments": "all",
+            "assetEmail": false,
+            "assetPush": false,
+            "assetText": false
+        },
+        "disableSafetySettings": {
+            "safetyAlertTypes": "all",
+            "staffTypes": "all",
+            "safetyDepartments": "all",
+            "safetyEmail": false,
+            "safetyPush": false,
+            "safetyText": false
+        },
+        "disableEnvironmentSettings": {
+            "environmentAlertTypes": "all",
+            "equipmentTypes": "all",
+            "environmentDepartments": "all",
+            "environmentEmail": false,
+            "environmentPush": false,
+            "environmentText": false
+        },
+        "disableAdminSettings": {
+            "adminAlertTypes": "all",
+            "adminDepartments": "all",
+            "adminEmail": false,
+            "adminPush": false,
+            "adminText": false
+        }
+    },
+    "enableSettingsOnAsset": {
+        "assetSettings": {
+            "assetAlertTypes": "all",
+            "assetTypes": "all",
+            "assetDepartments": "all",
+            "assetEmail": true,
+            "assetPush": true,
+            "assetText": true
+        },
+        "safetySettings": {
+            "safetyAlertTypes": "all",
+            "staffTypes": "all",
+            "safetyDepartments": "all",
+            "safetyEmail": false,
+            "safetyPush": false,
+            "safetyText": false
+        },
+        "environmentSettings": {
+            "environmentAlertTypes": "all",
+            "equipmentTypes": "all",
+            "environmentDepartments": "all",
+            "environmentEmail": false,
+            "environmentPush": false,
+            "environmentText": false
+        },
+        "adminSettings": {
+            "adminAlertTypes": "all",
+            "adminDepartments": "all",
+            "adminEmail": false,
+            "adminPush": false,
+            "adminText": false
+        }
+    },
+    "enableSettingsOnAdmin": {
+        "assetSettings": {
+            "assetAlertTypes": "all",
+            "assetTypes": "all",
+            "assetDepartments": "all",
+            "assetEmail": false,
+            "assetPush": false,
+            "assetText": false
+        },
+        "safetySettings": {
+            "safetyAlertTypes": "all",
+            "staffTypes": "all",
+            "safetyDepartments": "all",
+            "safetyEmail": false,
+            "safetyPush": false,
+            "safetyText": false
+        },
+        "environmentSettings": {
+            "environmentAlertTypes": "all",
+            "equipmentTypes": "all",
+            "environmentDepartments": "all",
+            "environmentEmail": false,
+            "environmentPush": false,
+            "environmentText": false
+        },
+        "adminSettings": {
+            "adminAlertTypes": "all",
+            "adminDepartments": "all",
+            "adminEmail": true,
+            "adminPush": true,
+            "adminText": true
+        }
+    },
+    "enableSettingsOnEnvironment": {
+        "assetSettings": {
+            "assetAlertTypes": "all",
+            "assetTypes": "all",
+            "assetDepartments": "all",
+            "assetEmail": false,
+            "assetPush": false,
+            "assetText": false
+        },
+        "safetySettings": {
+            "safetyAlertTypes": "all",
+            "staffTypes": "all",
+            "safetyDepartments": "all",
+            "safetyEmail": false,
+            "safetyPush": false,
+            "safetyText": false
+        },
+        "environmentSettings": {
+            "environmentAlertTypes": "all",
+            "equipmentTypes": "all",
+            "environmentDepartments": "all",
+            "environmentEmail": true,
+            "environmentPush": true,
+            "environmentText": true
+        },
+        "adminSettings": {
+            "adminAlertTypes": "all",
+            "adminDepartments": "all",
+            "adminEmail": false,
+            "adminPush": false,
+            "adminText": false
+        }
+    }
+}

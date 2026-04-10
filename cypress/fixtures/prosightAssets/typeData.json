@@ -1,0 +1,24 @@
+{
+  "asset_Type": "Automation Asset Type",
+  "type1": "Type1SMARTHOSP4978",
+  "type2": "Type2SMARTHOSP4978",
+  "type3": "Type3SMARTHOSP4978",
+  "type1": "Type1SMARTHOSP4978",
+  "type2": "Type2SMARTHOSP4978",
+  "type3": "Type3SMARTHOSP4978",
+  "testDataForDeleteTestCase": {
+    "type4": "Type4SMARTHOSP4978",
+    "type5": "Type5SMARTHOSP4978",
+    "type4": "Type4SMARTHOSP4978",
+    "type5": "Type5SMARTHOSP4978"
+  },
+  "assetType6": "Type6SMARTHOS8727",
+  "assetType7": "Type7SMARTHOS8727",
+  "assetType8": "Type8SMARTHOS8727",
+  "assetType9": "Type9SMARTHOS8727",
+  "assetType10": "Test10SMARTHOS8727",
+  "assetTypeDataForNegativeScenarios": {
+    "assetType11": "Test11SMARTHOS9314",
+    "assetType12": "^^&&*$%%$#"
+  }
+}

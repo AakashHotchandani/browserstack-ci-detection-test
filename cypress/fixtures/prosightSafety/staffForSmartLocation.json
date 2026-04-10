@@ -1,0 +1,112 @@
+{
+    "hospitalName": "Oschner Lafayette General1",
+    "departmentBoundaryName": "QAStaffLocationBoundary",
+    "staff1": {
+        "deviceId": "SMARTHOSP-TC-2979",
+        "staffName": "STAFF1-SMARTHOSP-TC-2979",
+        "staffType": "Type-TC-2979",
+        "staffId": "ID-TC-2979",
+        "serialNumber": "Num-TC-2979",
+        "staffTypeName": "staffType",
+        "valueDefault": "st st-staff",
+        "departmentName": "10th Floor Main Tower",
+        "departmentId": "3LkHxSkKhYebE96hXh6JIk"
+    },
+    "staff2": {
+        "deviceId": "SMARTHOSP-TC-4594",
+        "staffName": "STAFF2-SMARTHOSP-TC-4594",
+        "staffType": "Type-TC-4594",
+        "staffId": "ID-TC-4594",
+        "serialNumber": "Num-TC-4594",
+        "staffTypeName": "staffType",
+        "valueDefault": "st st-staff",
+        "departmentName": "10th Floor Main Tower",
+        "departmentId": "3LkHxSkKhYebE96hXh6JIk"
+    },
+    "staff21": {
+        "deviceId": "1SMARTHOSP-TC-4594",
+        "staffName": "1STAFF2-SMARTHOSP-TC-4594",
+        "staffType": "1Type-TC-4594",
+        "staffId": "1ID-TC-4594",
+        "serialNumber": "1Num-TC-4594",
+        "staffTypeName": "staffType",
+        "valueDefault": "st st-staff",
+        "departmentName": "10th Floor Main Tower",
+        "departmentId": "3LkHxSkKhYebE96hXh6JIk"
+    },
+    "staff3": {
+        "deviceId": "SMARTHOSP-TC-4868",
+        "staffName": "Staff-SMARTHOSP-4868",
+        "staffType": "StaffType-SMARTHOSP-4868",
+        "staffId": "StaffId-SMARTHOSP-4868",
+        "departmentName": "10th Floor Main Tower",
+        "departmentId": "3LkHxSkKhYebE96hXh6JIk",
+        "buildingName": "LGMC",
+        "floorName": "10",
+        "locationName": "Soiled Holding 125",
+        "staffTypeName": "staffType",
+        "valueDefault": "st st-staff",
+        "previousRoomName": "Patient Room 1034"
+    },
+    "staff4": {
+        "deviceId": "SMARTHOSP-TC-4880",
+        "staffName": "STAFF-SMARTHOSP-TC-4880",
+        "staffType": "Type-TC-4880",
+        "staffId": "ID-TC-4880",
+        "serialNumber": "Num-TC-4880",
+        "staffTypeName": "staffType",
+        "valueDefault": "st st-staff",
+        "departmentName": "10th Floor Main Tower",
+        "departmentId": "3LkHxSkKhYebE96hXh6JIk"
+    },
+    "staff41": {
+        "deviceId": "1SMARTHOSP-TC-4880",
+        "staffName": "1STAFF-SMARTHOSP-TC-4880",
+        "staffType": "1Type-TC-4880",
+        "staffId": "1ID-TC-4880",
+        "serialNumber": "1Num-TC-4880",
+        "staffTypeName": "staffType",
+        "valueDefault": "st st-staff",
+        "departmentName": "10th Floor Main Tower",
+        "departmentId": "3LkHxSkKhYebE96hXh6JIk"
+    },
+    "staffTagDetails": {
+        "deviceId": "QAStaffLocationTag",
+        "type": "Staff Tag",
+        "manufacturer": "HID",
+        "model": "Beacon Card V4",
+        "floorName": "StaffLocationFloor",
+        "locationName": "QaStaffLocationRoom1",
+        "previousRoomName": "QaStaffLocationRoom2",
+        "departmentName": "QA_StaffLocationDepartment",
+        "buildingName": "BRACC",
+        "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+    },
+    "staffDetails": {
+        "deviceId": "QAStaffLocationTag",
+        "staffName": "QAStaffLocation",
+        "staffType": "QAStaffLocationType",
+        "staffId": "QAL-8083",
+        "departmentName": "QA_StaffLocationDepartment",
+        "buildingName": "BRACC",
+        "floorName": "StaffLocationFloor",
+        "locationName": "QaStaffLocationRoom1",
+        "valueDefault": "st st-staff",
+        "previousRoomName": "QaStaffLocationRoom2"
+    },
+    "roomDetails": {
+        "roomTypeName": "QA_StaffLocationRoom",
+        "assetStatus": "Available",
+        "utilizationState": "Not Utilized",
+        "monitorCompliance": "No"
+    },
+    "locationDetails": {
+        "roomName_1": "QaStaffLocationRoom1",
+        "roomName_2": "QaStaffLocationRoom2",
+        "roomType": "QA_StaffLocationRoom"
+    },
+    "floorDetails": {
+        "floorName": "StaffLocationFloor",
+        "floorNumber": "sl123"
+    }
+}

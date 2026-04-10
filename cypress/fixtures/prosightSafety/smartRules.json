@@ -1,0 +1,35 @@
+{
+  "testData": {
+    "hospitalName": "Oschner Lafayette General1",
+    "departmentBoundaryName": "QAStaffRuleBoundary",
+    "buildingName": "LGMC",
+    "departmentName": "QA_Rule_Department",
+    "roomDetails": {
+      "roomTypeName": "QA_StaffRuleRoom",
+      "assetStatus": "Available",
+      "utilizationState": "Not Utilized",
+      "monitorCompliance": "No"
+    },
+    "locationDetails": {
+      "roomName_1": "QaStaffRuleRoom1",
+      "roomName_2": "QaStaffRuleRoom2",
+      "roomType": "QA_StaffRuleRoom"
+    },
+    "floorDetails": {
+      "floorName": "StaffRuleFloor",
+      "floorNumber": "sr123"
+    }
+  },
+    "ruleDataSet": {
+      "ruleName": "Automation Staff rule",
+      "ruleType": "Tag Button Programming",
+      "alertType": "Staff Emergency Alert"
+    },
+    "rule1": {
+      "ruleName": "Automation rule",
+      "ruleType": "tagButton",
+      "alertType": "staffEmergency",
+      "isDept": false,
+      "isFloor": false
+    }
+}

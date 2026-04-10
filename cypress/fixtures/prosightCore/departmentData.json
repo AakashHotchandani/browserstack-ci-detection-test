@@ -1,0 +1,46 @@
+{
+    "departmentDetails": {
+        "department1": {
+            "departmentName": "DepartmentTestCase1"
+        },
+        "department2": {
+            "departmentName": "DepartmentTestCase2"
+        },
+        "department3": {
+            "departmentName": "DepartmentTestCase3"
+        }
+    },
+    "editDepartMent": {
+        "departmentName": "editDepartmentTestCase"
+    },
+    "departmentBoundaries": {
+        "departmentName": "depBound",
+        "boundaryName1": {
+            "boundaryName": "DepartmentBoundaryTC1"
+        },
+        "boundaryName2": {
+            "boundaryName": "DepartmentBoundaryTC2"
+        },
+        "boundaryName3": {
+            "boundaryName": "DepartmentBoundaryTC3"
+        },
+        "editDepartmentBoundary": {
+            "boundaryName": "editDepartmentBoundary"
+        }
+    },
+    "floorDetails": {
+        "floorName": "coreDepartmentBoundary",
+        "floorNumber": "CDB1"
+    },
+    "locationDetails": {
+        "roomName_1": "CoreDBRoom1",
+        "roomName_2": "CoreDBRoom2",
+        "roomType": "DBRoomType"
+    },
+    "roomDetails": {
+        "roomTypeName": "DBRoomType",
+        "assetStatus": "Available",
+        "utilizationState": "Not Utilized",
+        "monitorCompliance": "No"
+    }
+}

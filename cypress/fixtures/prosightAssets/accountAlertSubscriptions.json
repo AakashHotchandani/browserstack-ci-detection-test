@@ -1,0 +1,16 @@
+{
+  "alertSections": [
+    {
+      "type": "alert",
+      "value": "Tag Low Battery"
+    },
+    {
+      "type": "department",
+      "value": "Intensive care unit (ICU)"
+    },
+    {
+      "type": "asset",
+      "value": "Pulse Oximeter"
+    }
+  ]
+}

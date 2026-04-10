@@ -1,0 +1,75 @@
+{
+    "dataSet1": {
+        "room1": {
+            "roomTypeName": "SMARTHOSP6844",
+            "assetStatus": "Available",
+            "utilizationState": "Not Utilized",
+            "monitorCompliance": "No"
+        }
+    },
+    "dataSet2": {
+        "room1": {
+            "roomTypeName": "SMARTHOSP ROOM",
+            "assetStatus": "Available",
+            "utilizationState": "Not Utilized",
+            "monitorCompliance": "No"
+        },
+        "room2": {
+            "roomTypeName": "SMARTHOSP EDIT",
+            "assetStatus": "Available",
+            "utilizationState": "Not Utilized",
+            "monitorCompliance": "No"
+        }
+    },
+    "nonEditable_DeletableRooms": [
+        "Soiled-Dirty Storage",
+        "Exit - PO",
+        "Exit - P",
+        "Clinical Engineering",
+        "Stair",
+        "Materials Management - Clean",
+        "Elevator",
+        "Hallway",
+        "Non-Patient",
+        "Inaccessible",
+        "Equipment Supply - Available",
+        "Patient",
+        "Clean Storage"
+    ],
+    "dataSet3": {
+        "room1": {
+            "roomTypeName": "TC6844B",
+            "assetStatus": "Available",
+            "utilizationState": "Not Utilized",
+            "monitorCompliance": "No"
+        },
+        "room2": {
+            "roomTypeName": "TC6844C",
+            "assetStatus": "Available",
+            "utilizationState": "Not Utilized",
+            "monitorCompliance": "No"
+        }
+    },
+    "roomBoundaryDetails":{
+        "hospitalName": "Oschner Lafayette General1",
+        "buildingName": "BRACC",
+        "departmentName" : "Department_C",
+    "room1":{
+        "mapLabel":"mapLabelName1",
+        "location": "locationName1",
+        "roomTypeName": "Elevator"
+    },
+    "room2":{
+        "mapLabel":"mapLabelName2",
+        "location": "locationName2",
+        "roomTypeName": "Elevator"
+        
+    },
+    "room3":{
+        "mapLabel":"mapLabelName3",
+        "location": "locationName3",
+        "roomTypeName": "Elevator"
+        
+    }
+}
+}

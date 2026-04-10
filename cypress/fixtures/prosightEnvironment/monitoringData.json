@@ -1,0 +1,48 @@
+{
+    "hospitalName": "Oschner Lafayette General1",
+    "departmentName": "QAEqpMonitoringDept",
+    "departmentBoundaryName": "QAEqpMonitoringBoundary",
+    "buildingName": "BRACC",
+    "floorDetails": {
+        "floorName": "EqpMonitoringFloor",
+        "floorNumber": "eqpMon123"
+    },
+    "roomDetails": {
+        "roomTypeName": "QA_EqpMonitoringRoom",
+        "assetStatus": "Available",
+        "utilizationState": "Not Utilized",
+        "monitorCompliance": "No"
+    },
+    "locationDetails": {
+        "roomName_1": "QaEqpMonRoom1",
+        "roomName_2": "QaEqpMonRoom2",
+        "roomType": "QA_EqpMonitoringRoom"
+    },
+    "sensorDetails": {
+        "sensorId": "QA Eqp Monitoring Sensor",
+        "sensorType": "Ambient",
+        "manufacturerName": "Sonicu",
+        "model": "QA eqp model 123",
+        "type": "Sensor"
+    },
+    "equipmentDetails": {
+        "deviceId": "QA Eqp Monitoring Sensor",
+        "equipmentName": "QAMonitoringEquipment",
+        "id": "QA-ID-10942",
+        "type": "QAEqpMonType",
+        "isRented": false,
+        "minTemp": 10,
+        "maxTemp": 25,
+        "buildingName": "BRACC",
+        "floorName": "EqpMonitoringFloor",
+        "floorId": null,
+        "departmentName": "QAEqpMonitoringDept",
+        "departmentID": null,
+        "locationName": "QaEqpMonRoom1",
+        "locationId": null
+    },
+    "tempAndHumidityData":{
+        "temperature":20,
+        "humidity":15
+    }
+}

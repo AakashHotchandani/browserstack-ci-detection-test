@@ -1,0 +1,62 @@
+name: BrowserStack Cypress Tests
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+      - development
+  pull_request:
+
+env:
+ BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
+ BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
+ SECRET_STAGE: ${{ secrets.SECRET_STAGE }}
+ SECRET_DEV: ${{ secrets.SECRET_DEV }}
+ API_KEY_STAGE: ${{ secrets.API_KEY_STAGE }}
+ API_KEY_DEV: ${{ secrets.API_KEY_DEV }}
+ PROJECT_ID_DEV: ${{ secrets.PROJECT_ID_DEV }}
+ PROJECT_ID_STAGE: ${{ secrets.PROJECT_ID_STAGE }}
+ SYSTEM_ID_STAGE: ${{ secrets.SYSTEM_ID_STAGE }}
+ SYSTEM_ID_DEV: ${{ secrets.SYSTEM_ID_DEV }}
+ HOSPITAL_ID_STAGE: ${{ secrets.HOSPITAL_ID_STAGE }}
+ HOSPITAL_ID_DEV: ${{ secrets.HOSPITAL_ID_DEV }}
+ ENVIRONMENT_BLUEPRINT_ID_STAGE: ${{ secrets.ENVIRONMENT_BLUEPRINT_ID_STAGE }}
+ ENVIRONMENT_BLUEPRINT_ID_DEV: ${{ secrets.ENVIRONMENT_BLUEPRINT_ID_DEV }}
+ STAFF_BLUEPRINT_ID_STAGE: ${{ secrets.STAFF_BLUEPRINT_ID_STAGE }}
+ STAFF_BLUEPRINT_ID_DEV: ${{ secrets.STAFF_BLUEPRINT_ID_DEV }}
+ ASSET_BLUEPRINT_ID_STAGE: ${{ secrets.ASSET_BLUEPRINT_ID_STAGE }}
+ ASSET_BLUEPRINT_ID_DEV: ${{ secrets.ASSET_BLUEPRINT_ID_DEV }}
+ NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout repo
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2️⃣ Setup Node
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          registry-url: 'https://registry.npmjs.org'
+
+      # 3️⃣ Configure npm for private packages
+      - name: Configure npm authentication
+        run: |
+          npm config set //registry.npmjs.org/:_authToken ${{ secrets.NPM_TOKEN }}
+
+      # 4️⃣ Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # 5️⃣ Run BrowserStack Cypress tests (specific file)
+      - name: Run BrowserStack Cypress tests
+        run: |
+          npx browserstack-cypress run \
+          --spec "cypress/e2e/regressionSuites/desktop/prosightSafety/**/*.cy.js" \
+          --sync        

@@ -1,0 +1,41 @@
+{
+  "hospitalName": "Oschner Lafayette General1",
+  "departmentBoundaryName": "QAAssetRuleBoundary",
+  "locationName": "QAAssetRuleLoc1",
+  "previousRoomName": "QAAssetRuleLoc2",
+  "departmentName": "QAAssetRuleDep",
+  "buildingName": "BRACC",
+  "buildingId": "4UAoO7IFOStsrb3tyREwiO",
+  "assetDetails": {
+    "deviceId": "QAAssetRuleTag",
+    "assetName": "QALocationAsset1",
+    "assetType": "QALocationAssetType",
+    "assetId": "QALocationAsset-9011",
+    "serialNumber": "Location1234567",
+    "valueDefault": "at at-default",
+    "departmentName": "QAAssetRuleDep",
+    "departmentID": null,
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO",
+    "floorName": "AssetRuleFloor",
+    "floorID": null,
+    "locationName": "QAAssetRuleLoc1",
+    "locationID": null,
+    "previousRoomName": "QAAssetRuleLoc2"
+  },
+  "roomDetails": {
+    "roomTypeName": "QA_AssetRuleRoom",
+    "assetStatus": "Available",
+    "utilizationState": "Not Utilized",
+    "monitorCompliance": "No"
+  },
+  "locationDetails": {
+    "roomName_1": "QAAssetRuleLoc1",
+    "roomName_2": "QAAssetRuleLoc2",
+    "roomType": "QA_AssetRuleRoom"
+  },
+  "floorDetails": {
+    "floorName": "AssetRuleFloor",
+    "floorNumber": "aloc12345"
+  }
+}

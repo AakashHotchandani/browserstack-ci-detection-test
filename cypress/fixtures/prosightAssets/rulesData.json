@@ -1,0 +1,91 @@
+{
+  "orderingRule": {
+    "rule1": {
+      "assetType": "AutomationRules",
+      "ruleName": "SmarthospAutomationRule",
+      "roomType": "QA_AssetRuleRoom",
+      "status": "availableRadioButton",
+      "utilizationState": "utilizedRadioButton",
+      "shrinkageState": "lostRadioButton",
+      "utilizationValue": 2,
+      "shrinkageWindowValue": "Immediately"
+    },
+    "rule2": {
+      "assetType": "AutomationRules",
+      "ruleName": "ApiAutomationRule",
+      "roomType": "QA_AssetRuleRoom",
+      "status": "missing",
+      "utilizationState": false,
+      "shrinkageState": "N/A",
+      "utilizationValue": null,
+      "shrinkageWindowValue": null
+    }
+  },
+  "apiRuleData": {
+    "createRuleDataForAPI": {
+      "assetType": "AutomationRules",
+      "ruleName": "ApiAutomationRule",
+      "roomType": "QA_AssetRuleRoom",
+      "status": "missing",
+      "utilizationState": false,
+      "shrinkageState": "N/A",
+      "utilizationValue": null,
+      "shrinkageWindowValue": null
+    },
+    "verifyRuleDataForAPI": {
+      "assetType": "AutomationRules",
+      "ruleName": "ApiAutomationRule",
+      "roomType": "QA_AssetRuleRoom",
+      "status": "Missing",
+      "utilizationState": "Not Utilized",
+      "shrinkageState": "N/A",
+      "utilizationValue": ""
+    },
+    "verifyRuleOnSidePanelForAPI": {
+      "Asset Status": "Missing",
+      "Asset Utilization State": "Not Utilized ",
+      "Shrinkage State": "N/A",
+      "Shrinkage Window": "N/A",
+      "Room Type": "QA_AssetRuleRoom",
+      "Asset Type": "AutomationRules"
+    }
+  },
+  "roomTypes": {
+    "exitP": "Exit - P",
+    "exitPo": "Exit - PO",
+    "cleanStorage": "Clean Storage",
+    "clinicalEngineering": "Clinical Engineering"
+  },
+  "operationRuleData": {
+    "createOperationRule": {
+      "assetType": "OperationRules",
+      "building": "BRACC",
+      "department": "QAAssetRuleDep",
+      "location": "QAAssetRuleLoc1",
+      "parLevelThreshold": 10,
+      "underParValue": 5,
+      "overParValue": 11,
+      "criticallyUnderParValue": 4
+    },
+    "editOperationRule": {
+      "assetType": "EditRule",
+      "building": "BRACC",
+      "department": "QAAssetRuleDep",
+      "location": "QAAssetRuleLoc1",
+      "parLevelThreshold": 11,
+      "underParValue": 6,
+      "overParValue": 13,
+      "criticallyUnderParValue": 5
+    },
+    "editOperationRule1": {
+      "assetType": "EditRule",
+      "building": "BRACC",
+      "department": "QAAssetRuleDep",
+      "location": "QAAssetRuleLoc1",
+      "parLevelThreshold": 10,
+      "underParValue": 5,
+      "overParValue": 11,
+      "criticallyUnderParValue": 4
+    }
+  }
+}

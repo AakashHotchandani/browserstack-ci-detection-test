@@ -1,0 +1,41 @@
+{
+    "assets": {
+        "accountSettings": false,
+        "assetManagement": false,
+        "overviewDashboard": false,
+        "smartAlerts": false,
+        "smartLocation": false,
+        "smartOperations": false,
+        "smartOrdering": false,
+        "smartReports": false,
+        "smartRules": false
+    },
+    "core": {
+        "accountSettings": false,
+        "overviewDashboard": false,
+        "smartAlerts": false,
+        "hospitalManagement": false,
+        "floorPlanManagement": false,
+        "userManagement": false,
+        "deviceManagement": false,
+        "setupWizard": false
+    },
+    "environment": {
+        "accountSettings": false,
+        "equipmentManagement": false,
+        "overviewDashboard": false,
+        "smartAlerts": false,
+        "smartMonitoring": false,
+        "smartReports": false,
+        "smartRules": false
+    },
+    "safety": {
+        "accountSettings": true,
+        "overviewDashboard": true,
+        "smartAlerts": true,
+        "smartLocation": true,
+        "staffManagement": false,
+        "smartReports": false,
+        "smartRules": false
+    }
+}

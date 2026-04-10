@@ -1,0 +1,38 @@
+{
+    "test1": {
+        "role": "Cognosos Administrator",
+        "app": "Assets, Safety, Environment, Core",
+        "department": "10th Floor Main Tower",
+        "building": "LGMC",
+        "lastLog": "11/22/23"
+    },
+    "test2": {
+        "role": "EM Manager",
+        "app": "Assets",
+        "department": "10 West South Therapy",
+        "uStatus": "Pending",
+        "lastLog": "12/13/23"
+    },
+    "test3": {
+        "department": "Clinical Engineering",
+        "uStatus": "Active",
+        "lastLog": "10/02/23"
+    },
+    "test4": {
+        "app": "Environment",
+        "department": "10th West Northh",
+        "uStatus": "Pending"
+    },
+    "test5": {
+        "app": "Assets, Safety",
+        "department": "Clinical Engineering"
+    },
+    "test6": {
+        "role": "COX Technician",
+        "app": "Assets, Environment"
+    },
+    "test7": {
+        "role": "EM Manager"
+    },
+    "building": "LGMC"
+}

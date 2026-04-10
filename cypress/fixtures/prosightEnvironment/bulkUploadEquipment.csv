@@ -1,0 +1,3 @@
+Equipment Name,Equipment ID,Equipment Type,Building,Floor,Assigned Owner,Location,Operating Temp (Min),Operating Temp (Max),Manufacturer Name,Id,Name,Model Number
+TestBulkEqip,EqipIds,eqTypes,BRACC,EqpManagement_Floor,QA_EqpManagment_Department,QaEqpManagement_Room1,12,22,,,,
+TestBulkEqip121,EqipIds121,eqTypes,BRACC,EqpManagement_Floor,QA_EqpManagment_Department,QaEqpManagement_Room1,12,33,,,,

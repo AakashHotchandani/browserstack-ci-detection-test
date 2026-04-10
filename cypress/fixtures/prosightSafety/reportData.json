@@ -1,0 +1,106 @@
+{
+    "reportsPageTestData": {
+        "oneTime_ScheduleReports": {
+            "report1": {
+                "reportName": "report 1 - SMARTHOSP-TC-4392",
+                "email": "chinmayee.s@codecraft.co.in",
+                "departmentName": "10th Floor Main Tower",
+                "scheduleType": "One-Time Report",
+                "reportType": "Staff Emergency Alerts Report"
+            },
+            "report2": {
+                "reportName": "report 2 - SMARTHOSP-TC-4392",
+                "email": "chinmayee.s@codecraft.co.in",
+                "departmentName": "10th Floor Main Tower",
+                "scheduleType": "One-Time Report",
+                "reportType": "Non-Emergency Alerts Report"
+            }
+        },
+        "recurringReports": {
+            "report3": {
+                "reportName": "report 3 - SMARTHOSP-TC-4392",
+                "email": "chinmayee.s@codecraft.co.in",
+                "departmentName": "10th Floor Main Tower",
+                "reportType": "Staff Emergency Alerts Report",
+                "scheduleType": "Recurring Report",
+                "frequency": "Daily"
+            },
+            "report4": {
+                "reportName": "report 4 - SMARTHOSP-TC-4392",
+                "email": "chinmayee.s@codecraft.co.in",
+                "departmentName": "10th Floor Main Tower",
+                "reportType": "Non-Emergency Alerts Report",
+                "scheduleType": "Recurring Report",
+                "frequency": "Daily"
+            }
+        }
+    },
+    "reportsForEditTestCase": {
+        "report5": {
+            "reportName": "report 5 Safety",
+            "email": "chinmayee.s@codecraft.co.in",
+            "departmentName": "10th Floor Main Tower",
+            "scheduleType": "One-Time Report",
+            "reportType": "Staff Emergency Alerts Report",
+            "departmentId": "3LkHxSkKhYebE96hXh6JIk"
+        },
+        "report5Edit": {
+            "reportName": "report 5 Safety Edit one",
+            "email": "chinmayee.s@codecraft.co.in",
+            "departmentName": "10th Floor Main Tower",
+            "scheduleType": "One-Time Report",
+            "reportType": "Staff Emergency Alerts Report",
+            "departmentId": "3LkHxSkKhYebE96hXh6JIk"
+        },
+        "report6": {
+            "reportName": "report 6 Safety",
+            "email": "chinmayee.s@codecraft.co.in",
+            "departmentName": "10th Floor Main Tower",
+            "scheduleType": "Recurring Report",
+            "reportType": "Staff Emergency Alerts Report",
+            "departmentId": "3LkHxSkKhYebE96hXh6JIk"
+        },
+        "report6Edit": {
+            "reportName": "report 6 Safety Edited one",
+            "scheduleType": "Recurring Report"
+        }
+    },
+    "reportsForDeleteTestCase": {
+        "report7": {
+            "reportName": "report 7",
+            "email": "chinmayee.s@codecraft.co.in",
+            "departmentName": "10th Floor Main Tower",
+            "reportType": "Non-Emergency Alerts Report",
+            "scheduleType": "One-Time Report",
+            "departmentId": "3LkHxSkKhYebE96hXh6JIk"
+        },
+        "report8": {
+            "reportName": "report 8",
+            "email": "chinmayee.s@codecraft.co.in",
+            "departmentName": "10th Floor Main Tower",
+            "scheduleType": "One-Time Report",
+            "reportType": "Staff Emergency Alerts Report",
+            "departmentId": "3LkHxSkKhYebE96hXh6JIk"
+        },
+        "report9": {
+            "reportName": "report 9",
+            "email": "chinmayee.s@codecraft.co.in",
+            "departmentName": "10th Floor Main Tower",
+            "scheduleType": "One-Time Report",
+            "reportType": "Staff Emergency Alerts Report",
+            "departmentId": "3LkHxSkKhYebE96hXh6JIk"
+        }
+    },
+    "DataForVerifyingEmail": {
+        "reportDetails": {
+            "reportName": "Test Email Template",
+            "email": "automation@9pjxckqc.mailosaur.net",
+            "departmentId": "0EtzdESCvJR5oKccMraHWP",
+            "scheduleType": "One-Time Report",
+            "reportType": "Staff Emergency Alerts Report",
+            "reportDelivery": "now",
+            "departmentName": "Test Department 112b i",
+            "dateRange": "Last 7 Days"
+        }
+    }
+}

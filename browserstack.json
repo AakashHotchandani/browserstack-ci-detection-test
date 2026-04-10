@@ -1,0 +1,42 @@
+{
+  "auth": {
+    "username": "${BROWSERSTACK_USERNAME}",
+    "access_key": "${BROWSERSTACK_ACCESS_KEY}"
+  },
+  "browsers": [{
+          "browser": "chrome",
+          "os": "Windows 10",
+          "versions": ["latest"]
+        }],
+  "run_settings": {
+    "cypress_config_file": "./cypress.config.js",
+    "project_name": "Prosight Automation",
+    "build_name": "QA Build 1",
+    "parallels": "5",
+    "network_logs": "true",
+    "video": true,
+    "npm_dependencies": {
+      "cypress": "^14.4.0",
+      "cypress-mailosaur": "^2.15.0",
+      "cypress-mochawesome-reporter": "^3.0.0",
+      "cypress-plugin-api": "^2.11.1",
+      "cy-verify-downloads": "^0.2.3",
+      "dotenv": "^16.4.5",
+      "axios": "^1.12.2",
+      "browserstack-cypress-cli": "^1.36.2",
+      "csv-parse": "^5.5.6",
+      "@cypress/grep": "^4.0.1",
+      "neat-csv": "^5.2.0",
+      "eslint-plugin-cypress": "^2.15.1",
+      "eslint": "^8.0.1",
+      "eslint-config-standard": "^17.1.0",
+      "eslint-plugin-import": "^2.25.2",
+      "eslint-plugin-n": "^16.0.0",
+      "eslint-plugin-promise": "^6.0.0",
+      "babel-eslint": "^10.1.0"
+    }
+  },
+  "connection_settings": {
+    "local": true
+  }
+}

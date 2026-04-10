@@ -1,0 +1,40 @@
+{
+  "hospitalName": "Oschner Lafayette General1",
+  "tagType": [
+    "Asset Tag",
+    "Patient Tag",
+    "Staff Tag"
+  ],
+  "Manufacturer": [
+    "HID",
+    "Kontakt"
+  ],
+  "Model": [
+    "Beacon Card V4 (Button)",
+    "iBeek Mini",
+    "iBeek V2",
+    "Smart Badge"
+  ],
+  "tag4": {
+    "tagId": "0L:4F:8K",
+    "tagType": "Staff Tag",
+    "manufacturer": "HID",
+    "model": "Beacon Card V4 (Button)"
+  },
+  "tagName2": "1X:2V:3Y",
+  "tagName3": "1U:7V:0Y",
+  "tagName4": "2U:9V:7Y",
+  "createTagData": {
+    "tagName": "1T2A3G",
+    "tagType": "Asset Tag",
+    "Manufacturer": "HID",
+    "Model": "iBeek V2"
+  },
+  "editCreateTagData": {
+    "tagName": "1T2A3G",
+    "tagType": "Staff Tag",
+    "Manufacturer": "Kontakt",
+    "Model": "Smart Badge"
+  },
+  "tagName5": "SMARTHOSP-8814-Tag1"
+}

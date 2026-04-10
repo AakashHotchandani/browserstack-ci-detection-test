@@ -1,0 +1,106 @@
+{
+  "hospitalName": [
+    "Oschner Lafayette General1",
+    "Hospital_QA"
+  ],
+  "streetAddress": "1214 Coolidge Street",
+  "city": "Birmingham",
+  "zipCode": "35205",
+  "timezone": "Eastern Standard Time",
+  "state": "Alabama",
+  "contactPersonName": "Perter",
+  "mobileNumber": 9285963258,
+  "email": "peter@mailinator.com",
+  "applications": [
+    "Prosight Assets",
+    "Prosight Safety",
+    "Prosight Environment"
+  ],
+  "buildingDetails": {
+    "buildingName": "Apollo Care Hospital",
+    "streetAddress": "Koramangala",
+    "city": "Bengaluru",
+    "zipCode": "35205",
+    "contactName": "Parker",
+    "contactPhoneNumber": "9285963258",
+    "contactEmail": "parker@mailinator.com",
+    "timezone": "Eastern Standard Time",
+    "state": "Alabama"
+  },
+  "editBuildingDetails": {
+    "newBuildingName": "Building Test123",
+    "newStreetAddress": "BTM Layout",
+    "newCity": "Bengaluru",
+    "newZipCode": "352068",
+    "newTimezone": "Eastern Standard Time",
+    "newState": "Alabama"
+  },
+  "departmentBoundaries": {
+    "boundaryName": [
+      "TC-6840 Boundary",
+      "6840-Boundary",
+      "Boundary-6842"
+    ],
+    "departMent": [
+      "9 West"
+    ],
+    "editDepartmentBoundary": "Edit"
+  },
+  "departmentDetails": {
+    "departmentName": [
+      "TC-6825 Department",
+      "68290 Edit",
+      "68259 Delete"
+    ],
+    "editDepartMent": "edit"
+  },
+  "roomDetails": {
+    "mapLabel": [
+      "7705Room",
+      "Room2-7705",
+      "7705 RoomD"
+    ],
+    "editMapLabel": "edit label",
+    "editLocation": "edit location",
+    "location": [
+      "77",
+      "05",
+      "07"
+    ],
+    "roomTypeName": [
+      "Clean Storage"
+    ]
+  },
+  "hospitalDetails": {
+    "hospitalName": "Hospital_QA",
+    "streetAddress": "1214 Coolidge Street",
+    "city": "Birmingham",
+    "zipCode": "35205",
+    "timezone": "Eastern Standard Time",
+    "state": "Alabama",
+    "contactPersonName": "Perter",
+    "mobileNumber": 9285963258,
+    "email": "peter@mailinator.com",
+    "applications": [
+      "Assets",
+      "Safety",
+      "Environment"
+    ]
+  },
+  "editHospitalDetails": {
+    "hospitalName": "Hospital_QA",
+    "streetAddress": "1214 Coolidge Street",
+    "city": "Birmingham",
+    "zipCode": "35205",
+    "timezone": "Eastern Standard Time",
+    "state": "Alabama",
+    "contactPersonName": "shyam",
+    "mobileNumber": "9285963258",
+    "email": "shyam@mailinator.com",
+    "applications": [
+      "Assets",
+      "Safety",
+      "Environment"
+    ]
+  }
+}

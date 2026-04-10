@@ -1,0 +1,66 @@
+{
+    "hospitalDetails": {
+        "hospitalName": "QASetUpWizardHospital",
+        "streetAddress": "1214 Coolidge Street",
+        "city": "Birmingham",
+        "zipCode": "35205",
+        "timezone": "Eastern Standard Time",
+        "state": "Alabama",
+        "contactPersonName": "Perter",
+        "mobileNumber": 9285963258,
+        "email": "peter@mailinator.com",
+        "applications": [
+            "Assets",
+            "Safety",
+            "Environment"
+        ]
+    },
+    "buildingDetails": {
+        "buildingName": "Apollo Care Hospital",
+        "streetAddress": "Koramangala",
+        "city": "Bengaluru",
+        "zipCode": "35205",
+        "contactPersonName": "Parker",
+        "mobileNumber": "9285963258",
+        "email": "parker@mailinator.com",
+        "timezone": "Eastern Standard Time",
+        "state": "Alabama"
+    },
+    "floorDetails": {
+        "floorName": "FloorSetupWizard",
+        "floorNumber": "S6428"
+    },
+    "departmentBoundaryDetails": {
+        "boundaryName": "TestSetUpDepartment",
+        "assignedOwner": "Oncology"
+    },
+    "tagDetails": {
+        "tagName": "SETUPTAG",
+        "tagType": "Asset Tag",
+        "Manufacturer": "HID",
+        "Model": "iBeek V2"
+    },
+    "sensorDetails": {
+        "sensor": "SETUPSENSOR",
+        "sensorTypes": "Ambient",
+        "manufacturer": "Centrak",
+        "modelName": "SMARTHOSP"
+    },
+    "gatewayDetails": {
+        "gatewaySID": "SETUPGATEWAY",
+        "gatewayTypeHID": "AC",
+        "gatewayTypeKontakt": "Anchor",
+        "manufacturerHID": "HID",
+        "manufacturerKontakt": "Kontakt",
+        "gatewayName": "Test098",
+        "gatewayPolicy": "Test098"
+    },
+    "userDetails": {
+        "name": "Setup Wizard user",
+        "email": "setupwizard@gmail.com",
+        "username": "setupwizard@gmail.com",
+        "phone": "1134534544",
+        "role": "Hospital Administrator",
+        "department": "Radiology"
+    }
+}

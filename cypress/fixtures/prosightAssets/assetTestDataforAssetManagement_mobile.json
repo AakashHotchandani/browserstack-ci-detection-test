@@ -1,0 +1,265 @@
+{
+  "hospitalName": "Oschner Lafayette General1",
+  "departmentBoundaryName": "QAAssetManagementMobileBoundary",
+  "locationName": "QaAssetManagementMobRoom1",
+  "previousRoomName": "QaAssetManagementMobRoom2",
+  "departmentName": "QA_AssetMangemobDepartment",
+  "buildingName": "BRACC",
+  "buildingId": "4UAoO7IFOStsrb3tyREwiO",
+  "assetType": "OAAssetmangmobtype",
+  "asset1": {
+    "assetName": "ASSET1-Automation mob test",
+    "assetId": "mob00225",
+    "serialNumber": "mob1H:T6:9O:78",
+    "departmentName": "10th Floor Main Tower1",
+    "assetType": "OAAssetmangmobtype",
+    "manufacturer": "SMITH MEDICAL1",
+    "modelNum": "HL-3901",
+    "maintenanceDay": "Quarterly",
+    "rentedOption": "Owned"
+  },
+  "asset2": {
+    "assetName": "ASSET2-SMARTHOSP-TC-4974-mob",
+    "assetId": "2345mob",
+    "serialNumber": "1F:TM:9J:74mob",
+    "departmentName": "10th Floor Main Tower1",
+    "assetType": "OAAssetmangmobtype",
+    "manufacturer": "SMITH MEDICAL1",
+    "modelNum": "HL977",
+    "maintenanceDay": "Annually",
+    "rentedOption": "Rented",
+    "rentalDueDate": "07/04/2024"
+  },
+  "asset3": {
+    "assetName": "ASSET3-SMARTHOSP-TC-4974-mob",
+    "assetId": "2385mob",
+    "serialNumber": "56788mob",
+    "assetType": "OAAssetmangmobtype",
+    "modelNum": "HL970",
+    "departmentName": "QA_AssetMangemobDepartment"
+  },
+  "asset4": {
+    "assetName": "ASSET4-SMARTHOSP-TC-4974-mob",
+    "assetId": "2300mob",
+    "serialNumber": "56722",
+    "departmentName": "QA_AssetMangemobDepartment",
+    "assetType": "OAAssetmangmobtype",
+    "manufacturer": "SMITH MEDICAL1",
+    "modelNum": "HL970",
+    "rentedOption": "Owned"
+  },
+  "assetsForDeleteTestCase": {
+    "asset5": {
+      "assetName": "ASSET5-SMARTHOSP-TC-4974-mob",
+      "assetId": "23343mob",
+      "serialNumber": "5673322",
+      "departmentName": "QA_AssetMangemobDepartment",
+      "assetType": "OAAssetmangmobtype",
+      "modelNum": "HL9700",
+      "maintenanceDay": "Monthly",
+      "rentedOption": "Rented",
+      "rentalDueDate": "08/05/2024"
+    },
+    "asset6": {
+      "assetName": "ASSET6-SMARTHOSP-TC-4972-mob",
+      "assetId": "00222-mob",
+      "serialNumber": "2325",
+      "departmentName": "QA_AssetMangemobDepartment",
+      "assetType": "OAAssetmangmobtype",
+      "manufacturer": "SMITH MEDICAL1",
+      "modelNum": "HL-3901",
+      "maintenanceDay": "05/20/2024",
+      "rentedOption": "Owned"
+    },
+    "asset7": {
+      "deviceId": "SMARTHOSP-TC-4972-mob",
+      "assetName": "ASSET7-SMARTHOSP-TC-4972-mob",
+      "assetId": "23452mob",
+      "serialNumber": "56789",
+      "departmentName": "QA_AssetMangemobDepartment",
+      "assetType": "OAAssetmangmobtype",
+      "manufacturer": "SMITH MEDICAL1",
+      "modelNum": "HL977",
+      "maintenanceDay": "07/26/2024",
+      "rentedOption": "Rented",
+      "rentalDueDate": "07/04/2024"
+    }
+  },
+  "asset8": {
+    "assetName": "ASSET8-SMARTHOSP-TC-4972-mob",
+    "assetId": "23852mob",
+    "serialNumber": "56788mob",
+    "departmentName": "10th Floor Main Tower1",
+    "assetType": "OAAssetmangmobtype",
+    "manufacturer": "SMITH MEDICAL1",
+    "modelNum": "HL970",
+    "maintenanceDay": "Annually",
+    "rentedOption": "Owned"
+  },
+  "asset9": {
+    "deviceId": "SMARTHOSP-TC-4980-mob",
+    "assetName": "ASSET9-SMARTHOSP-TC-4980-mob",
+    "assetId": "2385998mob",
+    "serialNumber": "567880",
+    "departmentName": "QA_AssetMangemobDepartment",
+    "assetType": "OAAssetmangmobtype",
+    "modelNum": "HL970",
+    "maintenanceDay": "Quarterly",
+    "rentedOption": "Owned"
+  },
+  "asset10": {
+    "deviceId": "SMARTHOSP-TC-4951-mob",
+    "assetName": "ASSET10-SMARTHOSP-TC-4974-mob",
+    "assetType": "Type-TC-4974",
+    "assetId": "ID-TC-4974",
+    "serialNumber": "Num-TC-4974",
+    "assetTypeName": "assetType",
+    "valueDefault": "at at-default"
+  },
+  "asset11": {
+    "deviceId": "SMARTHOSP-TC-4949",
+    "assetName": "ASSET11-SMARTHOSP-TC-4974",
+    "assetType": "Type-TC-4949",
+    "assetId": "ID-TC-4949",
+    "serialNumber": "Num-TC-4949",
+    "assetTypeName": "assetType",
+    "valueDefault": "at at-default"
+  },
+  "asset112": {
+    "deviceId": "1SMARTHOSP-TC-4949",
+    "assetName": "1ASSET11-SMARTHOSP-TC-4974",
+    "assetType": "1Type-TC-4949",
+    "assetId": "1ID-TC-4949",
+    "serialNumber": "1Num-TC-4949",
+    "assetTypeName": "assetType",
+    "valueDefault": "at at-default"
+  },
+  "asset12": {
+    "deviceId": "SMARTHOSP-TC-4937",
+    "assetName": "ASSET12-SMARTHOSP-TC-4937",
+    "assetType": "Type-TC-4937",
+    "assetId": "ID-TC-4937",
+    "serialNumber": "1Num-TC-4937",
+    "assetTypeName": "assetType",
+    "valueDefault": "at at-default"
+  },
+  "asset121": {
+    "deviceId": "1SMARTHOSP-TC-4937",
+    "assetName": "1ASSET12-SMARTHOSP-TC-4937",
+    "assetType": "1Type-TC-4937",
+    "assetId": "1ID-TC-4937",
+    "serialNumber": "1Num-TC-4937",
+    "assetTypeName": "assetType",
+    "valueDefault": "at at-default"
+  },
+  "asset14": {
+    "assetName": "SMARTHOSP-TC-8728",
+    "assetId": "Num-TC-8728",
+    "serialNumber": "8728",
+    "departmentName": "10th Floor Main Tower1",
+    "assetType": "OAAssetmangmobtype",
+    "rentedOption": "Rented",
+    "rentalDueDate": "07/04/2034"
+  },
+  "asset15": {
+    "assetName": "SMARTHOSP2-TC-8728",
+    "assetId": "Num2-TC-8728",
+    "assetType": "OAAssetmangmobtype",
+    "serialNumber": "8729",
+    "departmentName": "QA_AssetMangemobDepartment"
+  },
+  "asset16": {
+    "assetName": "SMARTHOSP3-TC-8728",
+    "assetId": "Num3-TC-8728",
+    "assetType": "OAAssetmangmobtype",
+    "departmentName": "10th Floor Main Tower1",
+    "manufacturer": "SMITH MEDICAL1",
+    "modelNum": "HL977",
+    "serialNumber": "8730",
+    "maintenanceDay": "Monthly",
+    "rentedOption": "Rented",
+    "rentalDueDate": "07/04/2034"
+  },
+  "asset17": {
+    "assetName": "SMARTHOSP4-TC-8728",
+    "assetId": "Num4-TC-8728",
+    "assetType": "OAAssetmangmobtype",
+    "serialNumber": "8731",
+    "departmentName": "QA_AssetMangemobDepartment"
+  },
+  "asset18": {
+    "tagId": "SMARTHOSP-TC-8728-Tag1",
+    "assetName": "SMARTHOSP5-TC-8728",
+    "assetId": "Num5-TC-8728",
+    "assetType": "OAAssetmangmobtype",
+    "departmentName": "QA_AssetMangemobDepartment",
+    "serialNumber": "8732"
+  },
+  "asset19": {
+    "tagId": "SMARTHOSP-TC-8728-Tag2",
+    "assetName": "SMARTHOSP6-TC-8728",
+    "assetId": "Num6-TC-8728",
+    "serialNumber": "8733",
+    "departmentName": "10th Floor Main Tower1",
+    "assetType": "OAAssetmangmobtype",
+    "rentedOption": "Rented",
+    "rentalDueDate": "07/06/2034"
+  },
+  "asset20": {
+    "tagId": "SMARTHOSP-TC-8781-Tag1",
+    "assetName": "SMARTHOSP-TC-8781",
+    "assetId": "Num-TC-8781",
+    "assetType": "OAAssetmangmobtype",
+    "serialNumber": "8781",
+    "departmentName": "QA_AssetMangemobDepartment"
+  },
+  "asset21": {
+    "tagId": "SMARTHOSP-TC-8814-Tag2",
+    "assetName": "SMARTHOSP-TC-8814",
+    "assetId": "Num2-TC-8814",
+    "assetType": "OAAssetmangmobtype",
+    "serialNumber": "8814",
+    "departmentName": "QA_AssetMangemobDepartment"
+  },
+  "assetDataForNegativeScenarios": {
+    "asset22": {
+      "assetName": "ASSET-TC-9313-mob",
+      "assetId": "93131-mob",
+      "serialNumber": "993311-mob",
+      "assetType": "OAAssetmangmobtype",
+      "departmentName": "10th Floor Main Tower1",
+      "rentedOption": "Owned"
+    },
+    "asset23": {
+      "assetName": "ASSET-TC-9313-mob",
+      "assetId": "93132-mob",
+      "serialNumber": "993311",
+      "assetType": "OAAssetmangmobtype",
+      "departmentName": "QA_AssetMangemobDepartment",
+      "rentedOption": "Owned"
+    },
+    "asset24": {
+      "assetName": "ASSET-TC-9314",
+      "assetId": "93131",
+      "serialNumber": "993311",
+      "assetType": "OAAssetmangmobtype",
+      "departmentName": "QA_AssetMangemobDepartment",
+      "rentedOption": "Owned"
+    }
+  },
+  "roomDetails": {
+    "roomTypeName": "QA_AssetManagement_mob_Room",
+    "assetStatus": "Available",
+    "utilizationState": "Not Utilized",
+    "monitorCompliance": "No"
+  },
+  "locationDetails": {
+    "roomName_1": "QaAssetManagementMobRoom1",
+    "roomName_2": "QaAssetManagementMobRoom2",
+    "roomType": "QA_AssetManagement_mob_Room"
+  },
+  "floorDetails": {
+    "floorName": "AssetManagementMobFloor",
+    "floorNumber": "amob123"
+  }
+}

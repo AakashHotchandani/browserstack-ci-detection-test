@@ -1,0 +1,126 @@
+{
+    "hospitalName": "Oschner Lafayette General1",
+    "departmentBoundaryName": "QAStaffBoundaryMobile",
+    "staffTagDetails": {
+        "deviceId": "QAStaffTagMobile",
+        "type": "Staff Tag",
+        "manufacturer": "HID",
+        "model": "Beacon Card V4",
+        "floorName": "StaffFloorMobile",
+        "locationName": "QaStaffRoom1Mobile",
+        "previousRoomName": "QaStaffRoom2Mobile",
+        "departmentName": "QA_StaffDepartmentMobile",
+        "buildingName": "BRACC",
+        "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+    },
+    "staffDetails": {
+        "deviceId": "QAStaffTagMobile",
+        "staffName": "QAStaffMobile",
+        "staffType": "QAStaffTypeMobile",
+        "staffId": "QA-M8083",
+        "departmentName": "QA_StaffDepartmentMobile",
+        "buildingName": "BRACC",
+        "floorName": "StaffFloorMobile",
+        "locationName": "QaStaffRoom1Mobile",
+        "valueDefault": "st st-staff",
+        "previousRoomName": "QaStaffRoom2Mobile"
+    },
+    "staffTagDetails2": {
+        "deviceId": "QAStaffRoomTagMobile",
+        "type": "Staff Tag",
+        "manufacturer": "HID",
+        "model": "Beacon Card V4",
+        "floorName": "StaffFloorMobile",
+        "locationName": "QaStaffRoom1Mobile",
+        "previousRoomName": "QaStaffRoom2Mobile",
+        "departmentName": "QA_StaffDepartmentMobile",
+        "buildingName": "BRACC",
+        "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+    },
+    "staffDetails2": {
+        "deviceId": "QAStaffRoomTagMobile",
+        "staffName": "QARoomOvercapacityStaffMobile",
+        "staffType": "QAStaffTypeMobile",
+        "staffId": "QA-MRoom",
+        "departmentName": "QA_StaffDepartmentMobile",
+        "buildingName": "BRACC",
+        "floorName": "StaffFloorMobile",
+        "locationName": "QaStaffRoom1Mobile",
+        "valueDefault": "st st-staff",
+        "previousRoomName": "QaStaffRoom2Mobile"
+    },
+    "staffEntryRuleDetails": {
+        "ruleName": "MTest_Room_Entry",
+        "ruleType": "staffActivity",
+        "staffType": "QAStaffTypeMobile",
+        "departmentName": "QA_StaffDepartmentMobile",
+        "locationName": "QaStaffRoom1Mobile",
+        "activity": "entry",
+        "createdBy": "nikhil"
+    },
+    "staffExitRuleDetails": {
+        "ruleName": "MTest_Room_Exit",
+        "ruleType": "staffActivity",
+        "staffType": "QAStaffTypeMobile",
+        "departmentName": "QA_StaffDepartmentMobile",
+        "locationName": "QaStaffRoom2Mobile",
+        "activity": "exit"
+    },
+    "staffEmergencyRuleDetails": {
+        "ruleName": "MTest_staff_Emergency",
+        "ruleType": "tagButton",
+        "alertType": "staffEmergency",
+        "isDept": false,
+        "isFloor": false
+    },
+    "staffRoomOverCapacityRuleDetails": {
+        "ruleName": "MTest_Room_OverCapacity",
+        "ruleType": "roomThreshold",
+        "departmentName": "QA_StaffDepartmentMobile",
+        "locationName": "QaStaffRoom1Mobile",
+        "threshold": 1
+    },
+    "roomDetails": {
+        "roomTypeName": "QA_StaffRoomMobile",
+        "assetStatus": "Available",
+        "utilizationState": "Not Utilized",
+        "monitorCompliance": "No"
+    },
+    "locationDetails": {
+        "roomName_1": "QaStaffRoom1Mobile",
+        "roomName_2": "QaStaffRoom2Mobile",
+        "roomType": "QA_StaffRoomMobile"
+    },
+    "floorDetails": {
+        "floorName": "StaffFloorMobile",
+        "floorNumber": "sm123"
+    },
+    "staffAlertTypes": {
+        "nonEmergencyAlert": {
+            "staffTagOffline": "Tag Offline",
+            "tagLowBattery": "Tag Low Battery"
+        },
+        "emergencyAlert": {
+            "staffEmergency": "Staff Emergency"
+        },
+    "batteryStatus": {
+      "batteryPercentage": 11,
+      "batteryStatus": "CRITICAL"
+    }
+    },
+    "ruleCreation": {
+        "ruleName": {
+            "Room_Entry": "Test_Room_Entry",
+            "Room_Exit": "Test_Room_Exit"
+        },
+        "ruleType": {
+            "staffActivity": "staffActivity"
+        },
+        "activityType": {
+            "entry": "entry",
+            "entryExit": "entryExit",
+            "exit": "exit"
+        },
+        "createdBy": "nikhil"
+    }
+}

@@ -1,0 +1,113 @@
+{
+  "deviceId": "Automation Device",
+  "hospitalName": "Oschner Lafayette General1",
+  "departmentBoundaryName": "QABoundary",
+  "deviceIdForMobileView": "Mobile View Automation Device",
+  "type": {
+    "assetTag": "Asset Tag",
+    "staffTag": "Staff Tag"
+  },
+  "manufacturer": {
+    "hid": "HID",
+    "kontakt": "Kontak"
+  },
+  "model": {
+    "assetModels": {
+      "ibeekMini": "iBeek Mini",
+      "ibeekV2": "iBeek V2",
+      "assetTag2": "Asset Tag 2",
+      "miniTag": "Mini Tag"
+    },
+    "staffModels": {
+      "beaconCard": "Beacon Card V4",
+      "beaconButton": "Beacon Card V4 (Button)",
+      "smartBadge": "Smart Badge"
+    }
+  },
+  "locationData": {
+    "floorName": "10",
+    "floorId": "3SmoPlg0WthScqmnGqcUmz",
+    "locationName": "Soiled Holding 125",
+    "locationId": "2jP0vDHKfe1ZxgFCwMUdF1",
+    "previousRoomName": "Patient Room 1034",
+    "previousRoomId": "3t47ojyjDz14rJmVZR2Hxw",
+    "departmentName": "10th Floor Main Tower",
+    "departmentId": "3LkHxSkKhYebE96hXh6JIk",
+    "buildingName": "LGMC",
+    "buildingId": "0EFlqEU049bQWxOnfcNPAj"
+  },
+  "assetTagDetails": {
+    "deviceId": "Automation125",
+    "type": "Asset Tag",
+    "manufacturer": "Kontak",
+    "model": "Asset Tag 2",
+    "floorName": "Jahnavi's Test Floor",
+    "floorId": "4oYyKIqKBcgU7KLMHqZlIZ",
+    "locationName": "New Room for testing",
+    "locationId": "0qmrlFNP8PIkXbgXx6ZRMx",
+    "previousRoomName": "Test Room-Jahnavi",
+    "previousRoomId": "752B2tqRkgDv3a61i3seew",
+    "departmentName": "Test depo for new room for testing",
+    "departmentId": "2SbxTcMckih1nyQ9V07Oxk",
+    "buildingName": "Test Building-J's",
+    "buildingId": "4rIkCzxkXXs85lwJjMN2Aj"
+  },
+  "assetDetails": {
+    "deviceId": "Automation125",
+    "assetName": "Asset-SMARTHOSP-9060",
+    "assetType": "AssetType-SMARTHOSP-90259",
+    "assetId": "AssetId-SMARTHOSP-9059",
+    "serialNumber": " Serial-SMARTHOSP-9059",
+    "valueDefault": "at at-default",
+    "buildingName": "Test Building-J's",
+    "floorName": "Jahnavi's Test Floor",
+    "locationName": "New Room for testing",
+    "departmentName": "Test depo for new room for testing"
+  },
+  "testDataForMobile": {
+    "assetDetailsForMobileView": {
+      "assetName": "Asset-SMARTHOSP-8813",
+      "assetType": "Asset Type SMARTHOSP 8897",
+      "assetId": "AssetId-SMARTHOSP-8813",
+      "serialNumber": " Serial-SMARTHOSP-8813",
+      "valueDefault": "at at-default",
+      "buildingName": "LGMC",
+      "floorName": "10",
+      "locationName": "Soiled Holding 125"
+    }
+  },
+  "assetAlertTypes": {
+    "tagAlerts": {
+      "tagLowBattery5": "Tag Low Battery < 5%",
+      "tagOffline": "Tag Offline",
+      "tagLowBattery20": "Tag Low Battery 20%"
+    },
+    "assetAlerts": {
+      "shrinkage": "Asset Exited Building"
+    },
+    "parAlerts": {
+      "stockedOut": "Stocked Out",
+      "criticallyUnderPAR": "Critically Under PAR",
+      "underPar": "Under PAR"
+    }
+  },
+  "environmentalAlerts": {
+    "sensorAndEquipmentAlerts": {
+      "sensorLowBattery": "Sensor Low Battery",
+      "sensorOffline": "Sensor Offline",
+      "inspectionOverdue": "Inspection Overdue",
+      "equipmentRentalDue": "Rental Due"
+    },
+    "calibrationDueTypes": {
+      "calibrationDueIn5Days": "Calibration Due in 5 days",
+      "calibrationDueIn10Days": "Calibration Due in 10 days",
+      "calibrationDueIn30Days": "Calibration Due in 30 days",
+      "calibrationDueIn60Days": "Calibration Due in 60 days"
+    },
+    "temperatureAlerts": {
+      "temperatureOutOfRange": "Temperature Out of Range",
+      "temperatureWarning": "Temperature Warning",
+      "humidityOutOfRange": "Humidity Out of Range"
+    }
+  }
+}

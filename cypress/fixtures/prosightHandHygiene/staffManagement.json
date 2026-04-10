@@ -1,0 +1,93 @@
+{
+    "staff1": {
+        "staffName": "SMARTHOSP8975-Staff",
+        "staffId": "id-685",
+        "department": "Pathology",
+        "departmentId": "1yN6MH5Q8u3tqwmTgXiZk0",
+        "staffType": "Nurse"
+    },
+    "staff2": {
+        "staffName": "Staff-6852",
+        "staffId": "id-69785",
+        "department": "Pathology",
+        "departmentId": "1yN6MH5Q8u3tqwmTgXiZk0",
+        "staffType": "Nurse"
+    },
+    "staff3": {
+        "staffName": "SMARTHOSP-6853-Staff",
+        "staffId": "id-6979865",
+        "department": "Pathology",
+        "departmentId": "1yN6MH5Q8u3tqwmTgXiZk0",
+        "staffType": "Nurse"
+    },
+    "staffsForDeleteTestCase": {
+        "staff4": {
+            "staffName": "SMARTHOSP-6854-Staff",
+            "staffId": "id-00908",
+            "department": "Pathology",
+            "departmentId": "1yN6MH5Q8u3tqwmTgXiZk0",
+            "staffType": "Nurse"
+        },
+        "staff5": {
+            "staffName": "SMARTHOSP-6854-StaffA",
+            "staffId": "id-90899",
+            "department": "Pathology",
+            "departmentId": "1yN6MH5Q8u3tqwmTgXiZk0",
+            "staffType": "Nurse"
+        },
+        "staff6": {
+            "staffName": "SMARTHOSP-6854-StaffB",
+            "staffId": "id-67890",
+            "department": "Pathology",
+            "departmentId": "1yN6MH5Q8u3tqwmTgXiZk0",
+            "staffType": "Nurse"
+        }
+    },
+    "staff7": {
+        "staffName": "SMARTHOSP-6855-Staff",
+        "staffId": "id-6855",
+        "department": "Pathology",
+        "departmentId": "1yN6MH5Q8u3tqwmTgXiZk0",
+        "staffType": "Nurse"
+    },
+    "staff8": {
+        "staffName": "SMARTHOSP-6898-Staff",
+        "staffId": "id-6898",
+        "department": "Pathology",
+        "departmentId": "1yN6MH5Q8u3tqwmTgXiZk0",
+        "staffType": "Nurse"
+    },
+    "staffTypeTestData": {
+        "createStaffType": {
+            "type1": "CodeCraft staff"
+        },
+        "deleteStaffTypes": {
+            "type1": "Cook staff",
+            "type2": "Driver Staff"
+        },
+        "staff9": {
+            "staffName": "Unique staff",
+            "staffId": "id-6963",
+            "department": "Pathology",
+            "departmentId": "1yN6MH5Q8u3tqwmTgXiZk0",
+            "staffType": "Iron man"
+        },
+        "editStaffType": {
+            "type1": "COX staff",
+            "type2": "International staff HH"
+        }     
+    },
+    "staff10": {
+        "staffName": "Staff-9064",
+        "staffId": "id-900004",
+        "department": "Pathology",
+        "departmentId": "1yN6MH5Q8u3tqwmTgXiZk0",
+        "staffType": "Nurse"
+    },
+    "editStaffData":{
+            "newStaffName":"SMARTHOSP-9069",
+            "newStaffId":"id:9069",
+            "newDepartment":"Pathology",
+            "newStaffType":"Nurse"            
+        }
+}

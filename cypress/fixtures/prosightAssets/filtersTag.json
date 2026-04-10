@@ -1,0 +1,20 @@
+{
+  "test1": {
+    "assetName": "Blood Warmer 124132",
+    "status": "Linked",
+    "manufacturer": "HID",
+    "tagModel": "iBeek V2"
+  },
+  "test2": {
+    "assetName": "Bladder Scanner 118154",
+    "status": "Unlinked",
+    "manufacturer": "HID",
+    "tagModel": "iBeek V2"
+  },
+  "test3": {
+    "assetName": "CBG Machine 8W 3",
+    "status": "Unlinked",
+    "manufacturer": "Kontak",
+    "tagModel": "iBeek Mini"
+  }
+}

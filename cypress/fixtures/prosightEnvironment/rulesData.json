@@ -1,0 +1,80 @@
+{
+  "hospitalName": "Oschner Lafayette General1",
+  "departmentName": "QA_EqpRules_Department",
+  "departmentBoundaryName": "QA_EqpRules_Boundary",
+  "buildingName": "BRACC",
+  "floorDetails": {
+    "floorName": "EqpRules_Floor",
+    "floorNumber": "eqp123"
+  },
+  "roomDetails": {
+    "roomTypeName": "QA_EqpRules_Room",
+    "assetStatus": "Available",
+    "utilizationState": "Not Utilized",
+    "monitorCompliance": "No"
+  },
+  "locationDetails": {
+    "roomName_1": "QaEqpRules_Room1",
+    "roomName_2": "QaEqpRules_Room2",
+    "roomType": "QA_EqpRules_Room"
+  },
+  "equipment_Type": "QAEqpRulesType",
+  "equipmentData": {
+    "equipmentName": "SMARTHOSP-8894",
+    "id": "8894",
+    "type": "QAEqpRulesType",
+    "isRented": false,
+    "minTemp": 4,
+    "maxTemp": 15,
+    "buildingName": "BRACC",
+    "floorName": "EqpRules_Floor",
+    "departmentName": "QA_EqpRules_Department",
+    "locationName": "QaEqpRules_Room1"
+  },
+  "sensorData": {
+    "sensorId": "Sensor-8894",
+    "sensorType": "Ambient",
+    "manufacturerName": "Sonicu",
+    "model": "8894"
+  },
+  "ruleData": {
+    "equipmentName": "SMARTHOSP-8894",
+    "type": "QAEqpRulesType",
+    "minTemperature": 5,
+    "maxTemperature": 50,
+    "optimalMinTemperature": 10,
+    "optimalMaxTemperature": 45,
+    "minHumidity": 10,
+    "maxHumidity": 50
+  },
+  "editRuleData": {
+    "equipmentName": "SMARTHOSP-8894",
+    "type": "QAEqpRulesType",
+    "minTemperature": 10,
+    "maxTemperature": 60,
+    "optimalMinTemperature": 15,
+    "optimalMaxTemperature": 55,
+    "minHumidity": 20,
+    "maxHumidity": 60
+  },
+  "inspectionRuleData": {
+    "createInspectionRuleData": {
+      "equipmentName": "SMARTHOSP-8894",
+      "type": "QAEqpRulesType",
+      "frequencyValue": "Weekly",
+      "weeklyValue": "Sunday",
+      "timeValue": "12:00 AM",
+      "secondInspectionDay": "-",
+      "secondInspectionTime": "-"
+    },
+    "editInspectionRule": {
+      "equipmentName": "SMARTHOSP-8894",
+      "type": "QAEqpRulesType",
+      "frequencyValue": "Monthly",
+      "monthValue": "1",
+      "timeValue": "12:00 AM",
+      "secondInspectionTime": "12:00 PM",
+      "secondInspectionMonth": 1
+    }
+  }
+}

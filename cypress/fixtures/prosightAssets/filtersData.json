@@ -1,0 +1,18 @@
+{
+
+  "test2": {
+    "assetType": "Blood Warmer",
+    "status": "Unlinked",
+    "department": "10 West South Therapy"
+  },
+  "test3": {
+    "assetType": "Breast Pump",
+    "status": "Linked"
+  },
+  "test4": {
+    "department": "10th East North"
+  },
+  "test5": {
+    "department": "Clinical Engineering"
+  }
+}

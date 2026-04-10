@@ -1,0 +1,62 @@
+{
+  "sensor1": {
+    "sensorId": "8027-sensor",
+    "sensorType": "Ambient",
+    "manufacturerName": "Sonicu",
+    "model": "1Q:P8:I7"
+  },
+  "sensor2": {
+    "sensorId": "7967-Sensor",
+    "sensorType": "Ambient",
+    "manufacturerName": "Sonicu",
+    "model": "1L:P8:IO"
+  },
+  "sensor3": {
+    "sensorId": "7958-Sensor",
+    "sensorType": "Ambient",
+    "manufacturerName": "Sonicu",
+    "model": "OP:79:IO"
+  },
+  "sensor4": {
+    "sensorId": "7589-Sensor",
+    "sensorType": "Ambient",
+    "manufacturerName": "Sonicu",
+    "model": "JU:Y8:PK"
+  },
+  "sensor5": {
+    "sensorId": "70089-Sensor",
+    "sensorType": "Ambient",
+    "manufacturerName": "Sonicu",
+    "model": "V7:Y8:9L"
+  },
+  "sensor6": {
+    "sensorId": "SMARTHOSP-8960-sensor1",
+    "sensorType": "Ambient",
+    "manufacturerName": "Sonicu",
+    "model": "1L:P8:IO"
+  },
+  "sensor7": {
+    "sensorId": "7958-Sensor",
+    "sensorType": "Ambient",
+    "manufacturerName": "Sonicu",
+    "model": "OP:79:IO"
+  },
+  "sensor8": {
+    "sensorId": "SMARTHOSP-9003-sensor1",
+    "sensorType": "Ambient",
+    "manufacturerName": "Sonicu",
+    "model": "1L:P8:IO"
+  },
+  "sensor9": {
+    "sensorId": "SMARTHOSP-9008-sensor1",
+    "sensorType": "Ambient",
+    "manufacturerName": "Sonicu",
+    "model": "0P:u9:I6"
+  },
+  "sensor10": {
+    "sensorId": "SMARTHOSP-9008-sensor222",
+    "sensorType": "Ambient",
+    "manufacturerName": "Sonicu",
+    "model": "1P:u7:I4"
+  }
+}

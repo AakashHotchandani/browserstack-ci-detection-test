@@ -1,0 +1,160 @@
+{
+    "hospitalName": "Oschner Lafayette General1",
+    "buildingName": "BRACC",
+    "coreAssetDetails": {
+        "departmentBoundaryName": "QACoreAssetBoundary",
+        "locationName": "CoreAssetRoom1",
+        "previousRoomName": "CoreAssetRoom2",
+        "departmentName": "CoreAssetDepartment",
+        "assetTagDetails": {
+            "deviceId": "QACoreAssetTag",
+            "type": "Asset Tag",
+            "manufacturer": "Kontak",
+            "model": "Asset Tag 2",
+            "floorName": "coreAsset",
+            "locationName": "CoreAssetRoom1",
+            "previousRoomName": "CoreAssetRoom2",
+            "departmentName": "CoreAssetDepartment",
+            "buildingName": "BRACC"
+        },
+        "assetDetails": {
+            "deviceId": "QACoreAssetTag",
+            "assetName": "QACoreAsset1",
+            "assetType": "QACoreAssetType",
+            "assetId": "C9011",
+            "serialNumber": " C9059",
+            "valueDefault": "at at-default",
+            "departmentName": "CoreAssetDepartment",
+            "departmentID": null,
+            "buildingName": "BRACC",
+            "floorName": "coreAsset",
+            "floorID": null,
+            "locationName": "CoreAssetRoom1",
+            "locationID": null,
+            "previousRoomName": "CoreAssetRoom2",
+            "prevLocationID": null
+        },
+        "roomDetails": {
+            "roomTypeName": "AssetCoreRoom",
+            "assetStatus": "Available",
+            "utilizationState": "Not Utilized",
+            "monitorCompliance": "No"
+        },
+        "locationDetails": {
+            "roomName_1": "CoreAssetRoom1",
+            "roomName_2": "CoreAssetRoom2",
+            "roomType": "AssetCoreRoom"
+        },
+        "floorDetails": {
+            "floorName": "coreAsset",
+            "floorNumber": "ca021"
+        }
+    },
+    "coreStaffDetails": {
+        "departmentBoundaryName": "QACoreStaffBoundary",
+        "staffTagDetails": {
+            "deviceId": "QACoreStaffTag",
+            "type": "Staff Tag",
+            "manufacturer": "HID",
+            "model": "Beacon Card V4",
+            "floorName": "coreStaff",
+            "locationName": "CoreStaffRoom1",
+            "previousRoomName": "CoreStaffRoom2",
+            "departmentName": "QA_StaffDepartment",
+            "buildingName": "BRACC",
+            "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+        },
+        "staffDetails": {
+            "deviceId": "QACoreStaffTag",
+            "staffName": "QACoreStaff",
+            "staffType": "QACoreStaffType",
+            "staffId": "QAC8083",
+            "departmentName": "QA_StaffDepartment",
+            "buildingName": "BRACC",
+            "floorName": "coreStaff",
+            "locationName": "CoreStaffRoom1",
+            "valueDefault": "st st-staff",
+            "previousRoomName": "CoreStaffRoom2"
+        },
+        "roomDetails": {
+            "roomTypeName": "QA_StaffRoom",
+            "assetStatus": "Available",
+            "utilizationState": "Not Utilized",
+            "monitorCompliance": "No"
+        },
+        "locationDetails": {
+            "roomName_1": "CoreStaffRoom1",
+            "roomName_2": "CoreStaffRoom2",
+            "roomType": "StaffCoreRoom"
+        },
+        "floorDetails": {
+            "floorName": "coreStaff",
+            "floorNumber": "cs123"
+        }
+    },
+    "assetAlerts": {
+        "tagLowBattery": "Tag Low Battery",
+        "tagOffline": "Tag Offline"
+    },
+    "batteryStatus": {
+      "batteryPercentage": 11,
+      "batteryStatus": "CRITICAL"
+    },
+    "coreEquipmentDetails": {
+        "departmentBoundaryName": "QACoreEquipmentBoundary",
+        "locationName": "CoreEquipmentRoom1",
+        "previousRoomName": "CoreEquipmentRoom2",
+        "departmentName": "CoreEquipmentDepartment",
+        "roomDetails": {
+            "roomTypeName": "EquipmentCoreRoom",
+            "assetStatus": "Available",
+            "utilizationState": "Not Utilized",
+            "monitorCompliance": "No"
+        },
+        "locationDetails": {
+            "roomName_1": "CoreEquipmentRoom1",
+            "roomName_2": "CoreEquipmentRoom2",
+            "roomType": "EquipmentCoreRoom"
+        },
+        "floorDetails": {
+            "floorName": "coreEquipment",
+            "floorNumber": "ceq021"
+        },
+        "sensorDetails": {
+            "sensorId": "coreSensor",
+            "sensorType": "Ambient",
+            "manufacturerName": "Sonicu",
+            "model": "coreEq123",
+            "type": "Sensor"
+        },
+        "equipmentDetails": {
+            "deviceId": "coreSensor",
+            "equipmentName": "QACoreEquipment",
+            "id": "QACEID",
+            "type": "QACoreEqpType",
+            "isRented": false,
+            "minTemp": 10,
+            "maxTemp": 25,
+            "buildingName": "BRACC",
+            "buildingId": "4UAoO7IFOStsrb3tyREwiO",
+            "floorName": "coreEquipment",
+            "floorId": null,
+            "departmentName": "CoreEquipmentDepartment",
+            "departmentID": null,
+            "locationName": "CoreEquipmentRoom1",
+            "locationId": null
+        }
+    },
+    "sensorAlerts": {
+        "sensorLowBattery": "Sensor Low Battery",
+        "sensorOffline": "Sensor Offline",
+        "calibrationDueIn5Days": "Calibration Due in 5 days",
+        "calibrationDueIn10Days": "Calibration Due in 10 days",
+        "calibrationDueIn30Days": "Calibration Due in 30 days",
+        "calibrationDueIn60Days": "Calibration Due in 60 days"
+    },
+    "staffAlerts": {
+        "staffTagOffline": "Tag Offline",
+        "tagLowBattery": "Tag Low Battery"
+    }
+}

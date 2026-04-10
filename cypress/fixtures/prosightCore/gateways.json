@@ -1,0 +1,56 @@
+{
+    "gatewaySID": "1T:2E:3S:4T:5G",
+    "buildingName": "BRACC",
+    "departmentName": "gatewayDepartment",
+    "manufacturer": [
+        "HID",
+        "Kontakt"
+    ],
+    "gatewayTypeHID": [
+        "AC",
+        "Aruba AP",
+        "DC"
+    ],
+    "gatewayTypeKontakt": [
+        "Anchor",
+        "Anchor Beacon 2",
+        "Beam Mini",
+        "Cisco AP",
+        "Portal Beam",
+        "Portal Light AC US - Plug B"
+    ],
+    "noData": "-",
+    "roomDetails": {
+        "roomTypeName": "gatewayRoomType",
+        "assetStatus": "Available",
+        "utilizationState": "Not Utilized",
+        "monitorCompliance": "No"
+    },
+    "locationDetails": {
+        "roomName_1": "gatewayRoom1",
+        "roomName_2": "gatewayRoom2",
+        "roomType": "gatewayRoomType"
+    },
+    "floorDetails": {
+        "floorName": "coreGateway",
+        "floorNumber": "g021"
+    },
+    "createGatewayData": {
+        "gatewaySID": "1T2E3S4T5G",
+        "gatewayType": "AC",
+        "manufacturer": "HID",
+        "gatewayName": "GQA",
+        "gatewayPolicy": "G",
+        "buildingName": "BRACC",
+        "floorName": "coreGateway",
+        "locationName": "gatewayRoom1",
+        "URLS": "https://stg-cox-health-imagine-api.leverege.com/v1/interface/4feYb9OZYr8j1YLy9qFBT6/hospital/5Er9CQ2heTt0fPSyae6bFR/buildings/0EFlqEU049bQWxOnfcNPAj/floors/3SmoPlg0WthScqmnGqcUmz/rooms?limit=1000"
+    },
+    "editGatewayDetails": {
+        "gatewaySID": "1T2E3S4T5G",
+        "gatewayType": "Anchor",
+        "manufacturer": "Kontakt",
+        "gatewayName": "GQAU",
+        "gatewayPolicy": "GPNU"
+    }
+}

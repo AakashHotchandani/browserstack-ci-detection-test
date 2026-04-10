@@ -1,0 +1,20 @@
+{
+    "primaryEscalationData": {
+        "email": "test@gmail.com",
+        "phoneNumber": "1234567890",
+        "type": "Primary Escalation",
+        "timeFrame": "5 mins"
+    },
+    "secondaryEscalationData": {
+        "email": "test96@gmail.com",
+        "phoneNumber": "1234567890",
+        "type": "Secondary Escalation",
+        "timeFrame": "10 mins"
+    },
+    "tertiaryEscalationData": {
+        "email": "test45@gmail.com",
+        "phoneNumber": "1234567890",
+        "type": "Tertiary Escalation",
+        "timeFrame": "15 mins"
+    }
+}

@@ -1,0 +1,81 @@
+{
+  "hospitalName": "Oschner Lafayette General1",
+  "departmentName": "QA_EquipmentDepartment_Mobile",
+  "departmentBoundaryName": "QAEquipmentBoundaryMobile",
+  "buildingName": "BRACC",
+  "floorDetails": {
+    "floorName": "EquipmentFloorMobile",
+    "floorNumber": "eqp123"
+  },
+  "roomDetails": {
+    "roomTypeName": "QA_EqpRoom_Mobile",
+    "assetStatus": "Available",
+    "utilizationState": "Not Utilized",
+    "monitorCompliance": "No"
+  },
+  "locationDetails": {
+    "roomName_1": "QaEqpMobileRoom1",
+    "roomName_2": "QaEqpMobileRoom2",
+    "roomType": "QA_EqpRoom_Mobile"
+  },
+  "sensorDetails": {
+    "sensorId": "QA Eqp Sensor Mobile",
+    "sensorType": "Ambient",
+    "manufacturerName": "Sonicu",
+    "model": "QA eqp model 12345",
+    "type": "Sensor"
+  },
+  "equipmentDetails": {
+    "deviceId": "QA Eqp Sensor Mobile",
+    "equipmentName": "QAEquipmentMobile",
+    "id": "QA-ID-10143789",
+    "type": "QAEqpTypeMobile",
+    "isRented": false,
+    "minTemp": 10,
+    "maxTemp": 25,
+    "buildingName": "BRACC",
+    "floorName": "EquipmentFloorMobile",
+    "floorId": null,
+    "departmentName": "QA_EquipmentDepartment_Mobile",
+    "departmentID": null,
+    "locationName": "QaEqpMobileRoom1",
+    "locationId": null
+  },
+  "temperatureAndHumidityDetailsForRuleCreation": {
+    "minHumidity": 10,
+    "minTemperature": 50,
+    "maxHumidity": 50,
+    "maxTemperature": 100,
+    "optimalMaxTemperature": 95,
+    "optimalMinTemperature": 55
+  },
+  "temperatureOutOfRangeAlertData": {
+    "temperature": 120,
+    "humidity": 30
+  },
+  "temperatureWarningAlertData": {
+    "temperature": 53,
+    "humidity": 30
+  },
+  "humidityOutOfRangeAlertData": {
+    "temperature": 75,
+    "humidity": 3
+  },
+  "environmentalAlerts": {
+    "sensorAndEquipmentAlerts": {
+      "sensorLowBattery": "Sensor Low Battery",
+      "sensorOffline": "Sensor Offline",
+      "inspectionOverdue": "Inspection Overdue",
+      "equipmentRentalDue": "Rental Due",
+      "calibrationDueIn5Days": "Calibration Due in 5 days",
+      "calibrationDueIn10Days": "Calibration Due in 10 days",
+      "calibrationDueIn30Days": "Calibration Due in 30 days",
+      "calibrationDueIn60Days": "Calibration Due in 60 days"
+    },
+    "temperatureAlerts": {
+      "temperatureOutOfRange": "Temperature Out of Range",
+      "temperatureWarning": "Temperature Warning",
+      "humidityOutOfRange": "Humidity Out of Range"
+    }
+  }
+}

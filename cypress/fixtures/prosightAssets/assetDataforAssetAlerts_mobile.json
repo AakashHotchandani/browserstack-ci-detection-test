@@ -1,0 +1,69 @@
+{
+  "hospitalName": "Oschner Lafayette General1",
+  "departmentBoundaryName": "QAAssetMobileBoundary",
+  "locationName": "QaAssetMobileRoom1",
+  "locationID": null,
+  "previousRoomName": "QaAssetMobileRoom2",
+  "departmentName": "QA_AssetMobileDepartment",
+  "departmentID": null,
+  "buildingName": "BRACC",
+  "buildingId": "4UAoO7IFOStsrb3tyREwiO",
+  "assetTagDetails": {
+    "deviceId": "QAAssetMobileTag",
+    "type": "Asset Tag",
+    "manufacturer": "Kontak",
+    "model": "Asset Mobile Tag 2",
+    "floorName": "AssetMobileFloor",
+    "locationName": "QaAssetMobileRoom1",
+    "previousRoomName": "QaAssetMobileRoom2",
+    "departmentName": "QA_AssetMobileDepartment",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "assetDetails": {
+    "deviceId": "QAAssetMobileTag",
+    "assetName": "QAAssetMobile1",
+    "assetType": "QAAssetMobileType",
+    "assetId": "QAMobileAsset-9011",
+    "serialNumber": "QAAssetMobile123456",
+    "valueDefault": "at at-default",
+    "departmentName": "QA_AssetMobileDepartment",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO",
+    "floorName": "AssetMobileFloor",
+    "floorID": null,
+    "locationName": "QaAssetMobileRoom1",
+    "previousRoomName": "QaAssetMobileRoom2"
+  },
+  "roomDetails": {
+    "roomTypeName": "QA_AssetMobileRoom",
+    "assetStatus": "Available",
+    "utilizationState": "Not Utilized",
+    "monitorCompliance": "No"
+  },
+  "locationDetails": {
+    "roomName_1": "QaAssetMobileRoom1",
+    "roomName_2": "QaAssetMobileRoom2",
+    "roomType": "QA_AssetMobileRoom"
+  },
+  "floorDetails": {
+    "floorName": "AssetMobileFloor",
+    "floorNumber": "Mobile1234567"
+  },
+  "assetAlertTypes": {
+    "assetAlerts": {
+      "shrinkage": "Asset Exited Building",
+      "maintenanceDue": "Maintenance Due",
+      "rentalDue": "Rental Due",
+      "stockedOut": "Stocked Out",
+      "criticallyUnderPAR": "Critically Under PAR",
+      "underPar": "Under PAR",
+      "tagLowBattery": "Tag Low Battery",
+      "tagOffline": "Tag Offline"
+    },
+    "batteryStatus": {
+      "batteryPercentage": 11,
+      "batteryStatus": "CRITICAL"
+    }
+  }
+}

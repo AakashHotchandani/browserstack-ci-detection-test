@@ -1,0 +1,34 @@
+{
+  "tag1": {
+    "deviceId": "Automation Asset testing device",
+    "type": "Asset Tag",
+    "manufacturer": "Kontak",
+    "model": "Asset Tag 2",
+    "floorName": "Jahnavi's Test Floor",
+    "floorId": "4oYyKIqKBcgU7KLMHqZlIZ",
+    "locationName": "New Room for testing",
+    "locationId": "0qmrlFNP8PIkXbgXx6ZRMx",
+    "previousRoomName": "132",
+    "previousRoomId": "6tffugZujJZXkKMECorKwo",
+    "departmentName": "Test depo for new room for testing updated",
+    "departmentId": "2SbxTcMckih1nyQ9V07Oxk",
+    "buildingName": "Test Building-J's",
+    "buildingId": "4rIkCzxkXXs85lwJjMN2Aj"
+  },
+  "tag2": {
+    "deviceId": "Automation Asset Tag 001",
+    "type": "Asset Tag",
+    "manufacturer": "Kontak",
+    "model": "Asset Tag 2",
+    "floorName": "Jahnavi's Test Floor",
+    "floorId": "4oYyKIqKBcgU7KLMHqZlIZ",
+    "locationName": "New Room for testing",
+    "locationId": "0qmrlFNP8PIkXbgXx6ZRMx",
+    "previousRoomName": "132",
+    "previousRoomId": "6tffugZujJZXkKMECorKwo",
+    "departmentName": "Test depo for new room for testing updated",
+    "departmentId": "2SbxTcMckih1nyQ9V07Oxk",
+    "buildingName": "Test Building-J's",
+    "buildingId": "4rIkCzxkXXs85lwJjMN2Aj"
+  }
+}

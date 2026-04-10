@@ -1,0 +1,44 @@
+{
+    "departmentName": "HHSensorDepartment",
+    "roomDetails": {
+        "roomTypeName": "HHSensorRoomType",
+        "assetStatus": "Available",
+        "utilizationState": "Not Utilized",
+        "monitorCompliance": "No"
+    },
+    "locationDetails": {
+        "roomName_1": "HHSensorRoom1",
+        "roomName_2": "HHSensorRoom2",
+        "roomType": "HHSensorRoomType"
+    },
+    "floorDetails": {
+        "floorName": "coreHHSensor",
+        "floorNumber": "HH021"
+    },
+    "sensor1": {
+        "createHhSensor": {
+            "hhSensorId": "1J:G9:L6",
+            "hhSensorType": "Automatic",
+            "sensorManufacturer": "HID",
+            "hhSensorName": "sensorName",
+            "hhSensorPolicy": "testPolicy",
+            "manualDispenseCounts": "2",
+            "building": "BRACC",
+            "floor": "coreHHSensor",
+            "location": "HHSensorRoom1",
+            "associatedLocation": "HHSensorRoom2"
+        },
+        "editHhSensor": {
+            "hhSensorId": "1J:G9:L6",
+            "hhSensorType": "Manual",
+            "sensorManufacturer": "Kontakt",
+            "hhSensorName": "sensorName",
+            "hhSensorPolicy": "testPolicy",
+            "manualDispenseCounts": "2",
+            "building": "BRACC",
+            "floor": "coreHHSensor",
+            "location": "HHSensorRoom1",
+            "associatedLocation": "HHSensorRoom2"
+        }
+    }
+}

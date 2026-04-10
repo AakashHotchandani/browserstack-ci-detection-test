@@ -1,0 +1,60 @@
+/**
+ * Consists of different API endpoints
+ */
+export default {
+  loginEndpoint: 'login',
+  baseEndpoint: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}/`,
+  staffSearchEndpoint: 'staff.search',
+  tagSearchEndpoint: 'tags.search',
+  assetSearchEndpoint: 'assets.search',
+  equipmentSearchEndpoint: 'equipment.search',
+  sensorSearchEndpoint: 'sensors.search',
+  incidentSearchEndpoint: 'incidents.search',
+  roomSearchEndPoint: 'rooms.search',
+  floorSearchEndPoint: 'floors.search',
+  gatewaySearch: 'blufis.search',
+  hhSensorSearchEndPoint: 'dispensers.search',
+  departmentBoundarySearch: 'departmentBoundaries.search',
+  hospitalSearchEndPoint: (systemId) => `interface/${systemId}/hospital.search`,
+  departmentSearchEndPoint: 'departments.search',
+  buildingSearchEndPoint: (systemId) => `interface/${systemId}/building.search`,
+  setValuesEndPoint: '/setValue',
+  deleteRoomEndpoint: (projectId, systemId) => `project/${projectId}/system/${systemId}/srv/prosightApiServer/room/`,
+  staffActionsEndpoint: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}/staff/`,
+  assetActionEndpoint: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}/assets/`,
+  tagActionsEndpoint: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}/tags/`,
+  sensorActionsEndpoint: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}/sensors/`,
+  gatewayActionsEndpoint: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}/blufis/`,
+  equipmentActionsEndpoint: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}/equipment/`,
+  floorActionEndPoint: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}/floors/`,
+  departmentActionEndPoint: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}/departments/`,
+  deviceTypeEndpoint: (systemId, hospitalId) => `system/${systemId}/device/${hospitalId}/srv/prosightBypass/resourceEnum`, //use for creating equipment type can be used for creating room type too
+  deleteUserEndpoint: (systemId, hospitalId) => `system/${systemId}/device/${hospitalId}/srv/prosightBypass/users`,
+  userSearchEndpoint: (systemId, hospitalId) => `system/${systemId}/srv/prosightBypass/device/${hospitalId}/users?expire=1`,
+  timerEndpoint: (projectId) => `project/${projectId}/timer/`,
+  accountsEndpoint: (projectId) => `project/${projectId}/account/`,
+  searchRuleEndpoint: (systemId, hospitalId) =>
+    `interface/${systemId}/hospital/${hospitalId}.rsrc/p/rules/p/safety/p/smartRules/p/alerts?offset=0&limit=9999&children=true`,
+  staffRuleEndpoint: (systemId, hospitalId) =>
+    `interface/${systemId}/hospital/${hospitalId}.rsrc/p/rules/p/safety/p/smartRules/p/alerts/p/staffActivity/p/`,
+  roomThresholdEndpoint: (systemId, hospitalId) =>
+    `interface/${systemId}/hospital/${hospitalId}.rsrc/p/rules/p/safety/p/smartRules/p/alerts/p/roomThreshold/p/`,
+  tagButtonProgrammingEndpoint: (systemId, hospitalId) =>
+    `interface/${systemId}/hospital/${hospitalId}.rsrc/p/rules/p/safety/p/smartRules/p/alerts/p/tagButton`,
+  reportsEndPoint: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}.srv/prosightAnalytics/scheduledReports`,
+  incidentPageEndpoint: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}/incidents/`,
+  getDepartments: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}/departments`,
+  removeStaffEmergencyAlertCarouselEndPoint: (systemId, hospitalId) => `system/${systemId}/device/${hospitalId}/setValue`,
+  reportsCount: (systemId, hospitalId) => `system/${systemId}/device/${hospitalId}`,
+  setTemperatureAndHumidityForSensorEndPoint: (systemId) => `system/${systemId}/device/`,
+  deleteEnvironmentRule: (systemId, hospitalId) => `system/${systemId}/device/${hospitalId}/srv/prosightBypass/rules/delete `,
+  orderingRuleEndpoint: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}.rsrc/p/rules/p/assets/p/smartRules/p/ordering/p/`,
+  operationRuleEndpoint: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}.rsrc/p/rules/p/assets/p/smartRules/p/operations/p/`,
+  mailasourEndpoint: 'https://mailosaur.com/api/',
+  twilioGetMessagesEndpoint: 'https://api.twilio.com/2010-04-01/Accounts/AC441544a88bb0122f600349107ff4e47c/Messages.json',
+  hhSensorEndpoint: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}/dispensers/`,
+  userRoleEndPoint: (systemId, hospitalId) => `system/${systemId}/device/${hospitalId}/srv/prosightBypass/users`,
+  departmentByBuildingEndpoint: (systemId, hospitalId, buildingId) =>
+    `interface/${systemId}/hospital/${hospitalId}/buildings/${buildingId}/departments`,
+  parLevelStatus: (systemId, hospitalId) => `interface/${systemId}/hospital/${hospitalId}.srv/prosightAnalytics/par`,
+}

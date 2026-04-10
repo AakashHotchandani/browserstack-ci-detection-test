@@ -1,0 +1,167 @@
+{
+    "staffTagDetails": {
+        "type": "Staff Tag",
+        "manufacturer": "HID",
+        "model": "Beacon Card V4",
+        "floorName": "10",
+        "floorId": "3SmoPlg0WthScqmnGqcUmz",
+        "locationName": "Storage 116",
+        "locationId": "6ZDJPsa5v0YfuzdVNfkL5a",
+        "previousRoomName": "Patient Room 1034",
+        "previousRoomId": "3t47ojyjDz14rJmVZR2Hxw",
+        "departmentName": "10th Floor Main Tower",
+        "departmentId": "3LkHxSkKhYebE96hXh6JIk",
+        "buildingName": "LGMC",
+        "buildingId": "0EFlqEU049bQWxOnfcNPAj"
+    },
+    "moderationLogicAlerts": {
+        "isdrAlerts": {
+            "staffTagOffline": "Tag Offline"
+            
+        },
+        "iapALerts": {
+            "tagALerts": {
+               
+                "tagLowBattery5": "Tag Low Battery < 5%",
+                "tagLowBattery20": "Tag Low Battery 20%"
+            },
+            "assetAlerts": {
+                "shrinkage": "Asset Exited Building"
+            },
+            "parAlerts": {
+                "criticallyUnderPAR": "Critically Under PAR",
+                "underPar": "Under PAR",
+                "stockedOut": "Stocked Out"
+            }
+        },
+        "iemAlerts": {
+            "sensorLowBattery": "Sensor Low Battery",
+            "sensorOffline": "Sensor Offline"
+        }
+    },
+    "staffDetailsForModerationLogic": {
+        "staff1": {
+            "device": "Tag1",
+            "staffName": "Staff1_RoomOvercapacityAlert",
+            "staffType": "StaffType11",
+            "staffId": "Staff1",
+            "departmentName": "10th Floor Main Tower",
+            "departmentId": "3LkHxSkKhYebE96hXh6JIk",
+            "buildingName": "LGMC",
+            "floorName": "10",
+            "locationName": "Storage 116",
+            "valueDefault": "st st-staff",
+            "previousRoomName": "Patient Room 1034"
+        },
+        "staff2": {
+            "device": "Tag2",
+            "staffName": "Staff2_RoomOvercapacityAlert",
+            "staffType": "StaffType2",
+            "staffId": "Staff12",
+            "departmentName": "10th Floor Main Tower",
+            "departmentId": "3LkHxSkKhYebE96hXh6JIk",
+            "buildingName": "LGMC",
+            "floorName": "10",
+            "locationName": "Storage 116",
+            "valueDefault": "st st-staff",
+            "previousRoomName": "Patient Room 1034"
+        }
+    },
+    "moderationLogicRoomOverCapacityRuleDetails": {
+        "ruleName": "Test_Room_OverCapacity",
+        "ruleType": "roomThreshold",
+        "departmentName": "10th Floor Main Tower",
+        "departmentId": "3LkHxSkKhYebE96hXh6JIk",
+        "locationName": "Storage 116",
+        "locationId": "6ZDJPsa5v0YfuzdVNfkL5a",
+        "threshold": 2,
+        "createdBy": "nikhil"
+    },
+    "staffDetails": {
+        "staff3": {
+            "device": "Tag3",
+            "staffName": "Staff3_RoomOvercapacityAlert",
+            "staffType": "StaffType3",
+            "staffId": "Staff13",
+            "departmentName": "10th Floor Main Tower",
+            "departmentId": "3LkHxSkKhYebE96hXh6JIk",
+            "buildingName": "LGMC",
+            "floorName": "10",
+            "locationName": "Storage 116",
+            "valueDefault": "st st-staff",
+            "previousRoomName": "Patient Room 1034"
+        },
+        "staff4": {
+            "device": "Tag4",
+            "staffName": "Staff4_RoomOvercapacityAlert",
+            "staffType": "StaffType4",
+            "staffId": "Staff14",
+            "departmentName": "10th Floor Main Tower",
+            "departmentId": "3LkHxSkKhYebE96hXh6JIk",
+            "buildingName": "LGMC",
+            "floorName": "10",
+            "locationName": "Storage 116",
+            "valueDefault": "st st-staff",
+            "previousRoomName": "Patient Room 1034"
+        }
+    },
+    "policyName": "LGMC:10-1039_AC",
+    "assetDetails": {
+        "asset1": {
+            "assetName": "Asset-SMARTHOSP-Moderation",
+            "assetType": "Asset Mod",
+            "assetId": "Mod -001",
+            "serialNumber": "Ser mod 001"
+        },
+        "parAlerts": {
+            "condition1Assets": {
+                "asset2": {
+                    "assetName": "Asset-SMARTHOSP-PAR",
+                    "assetType": "Asset PAR check",
+                    "assetId": "AssetId-PAR002",
+                    "serialNumber": "Serial-PAR002"
+                }
+            },
+            "condition2Assets": {}
+        }
+    },
+    "assetTagDetails": {
+        "tag1": {
+            "deviceId": "Automation Asset 001",
+            "type": "Asset Tag",
+            "manufacturer": "Kontak",
+            "model": "Asset Tag 2",
+            "floorName": "10",
+            "floorId": "3SmoPlg0WthScqmnGqcUmz",
+            "locationName": "Soiled Holding 125",
+            "locationId": "2jP0vDHKfe1ZxgFCwMUdF1",
+            "previousRoomName": "Patient Room 1034",
+            "previousRoomId": "3t47ojyjDz14rJmVZR2Hxw",
+            "departmentName": "10th Floor Main Tower",
+            "departmentId": "3LkHxSkKhYebE96hXh6JIk",
+            "buildingName": "LGMC",
+            "buildingId": "0EFlqEU049bQWxOnfcNPAj"
+        },
+        "parAlerts": {
+            "condition1Tags": {
+                "tag2": {
+                    "deviceId": "Automation PAR002",
+                    "type": "Asset Tag",
+                    "manufacturer": "Kontak",
+                    "model": "Asset Tag 2",
+                    "floorName": "10",
+                    "floorId": "3SmoPlg0WthScqmnGqcUmz",
+                    "locationName": "Soiled Holding 125",
+                    "locationId": "2jP0vDHKfe1ZxgFCwMUdF1",
+                    "previousRoomName": "Patient Room 1034",
+                    "previousRoomId": "3t47ojyjDz14rJmVZR2Hxw",
+                    "departmentName": "10th Floor Main Tower",
+                    "departmentId": "3LkHxSkKhYebE96hXh6JIk",
+                    "buildingName": "LGMC",
+                    "buildingId": "0EFlqEU049bQWxOnfcNPAj"
+                }
+            },
+            "condition2Tags": {}
+        }
+    }
+}

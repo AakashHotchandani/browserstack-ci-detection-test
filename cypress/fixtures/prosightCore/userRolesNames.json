@@ -1,0 +1,20 @@
+{
+  "assetsManager": "Assets Manager",
+  "assetsTechnician": "Assets Technician",
+  "assetsViewer": "Assets Viewer",
+  "cognososAdministrator": "Cognosos Administrator",
+  "default": "Default",
+  "emManager": "Environment Manager",
+  "emViewer": "Environment Viewer",
+  "emTechnician": "Environment Technician",
+  "hospitalAdministrator": "Hospital Administrator",
+  "hospitalEmployee": "Hospital Employee",
+  "hospitalManager": "Hospital Manager",
+  "hospitalOperator": "Hospital Operator",
+  "hospitalTechnician": "Hospital Technician",
+  "hospitalViewer": "Hospital Viewer",
+  "nursingManager": "Nursing Manager",
+  "safetyManager": "Safety Manager",
+  "safetyViewer": "Safety Viewer",
+  "safetyTechnician": "Safety Technician"
+}

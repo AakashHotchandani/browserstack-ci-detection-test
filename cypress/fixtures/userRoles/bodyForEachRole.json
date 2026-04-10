@@ -1,0 +1,147 @@
+{
+    "safetyViewer/SafetyTechnician":{
+        "safety": {
+            "email": false,
+            "hours": "all",
+            "push": true,
+            "text": false,
+            "weekdays": "all",
+            "departments": []                    
+        },
+        "compliance": {
+            "email": false,
+            "hours": "all",
+            "push": true,
+            "text": false,
+            "weekdays": "all",
+            "departments": []                          
+                }                                
+    },
+    "EMViewer/EnvironmentManager/EnvironmentTechnician":{
+        "environment": {
+            "email": true,
+            "hours": "all",
+            "push": true,
+            "text": false,
+            "weekdays": "all",
+            "departments": []
+        },
+        "compliance": {
+            "email": true,
+            "hours": "all",
+            "push": true,
+            "text": false,
+            "weekdays": "all",
+            "departments": []
+        }
+    },
+    "HospitalManager/HospitalTechnician/HospitalViewer/HospitalEmployee":{
+        "assets": {
+                    "email": false,
+                    "hours": "all",
+                    "push": true,
+                    "text": false,
+                    "weekdays": "all",
+                    "departments": []
+                },
+        "safety": {
+                    "email": false,
+                    "hours": "all",
+                    "push": true,
+                    "text": false,
+                    "weekdays": "all",
+                    "departments": []
+                },       
+        "environment": {
+                    "email": false,
+                    "hours": "all",
+                    "push": true,
+                    "text": false,
+                    "weekdays": "all",
+                    "departments": []
+                },        
+        "compliance": {
+                    "email": false,
+                    "hours": "all",
+                    "push": true,
+                    "text": false,
+                    "weekdays": "all",
+                    "departments": []
+                }        
+    },
+    "ProsightAdministrator/HospitalAdministrator":{
+        "assets": {
+                    "email": false,
+                    "hours": "all",
+                    "push": true,
+                    "text": false,
+                    "weekdays": "all",
+                    "departments": []
+                },
+        "safety": {
+                    "email": false,
+                    "hours": "all",
+                    "push": true,
+                    "text": false,
+                    "weekdays": "all",
+                    "departments": []
+                },       
+        "environment": {
+                    "email": false,
+                    "hours": "all",
+                    "push": true,
+                    "text": false,
+                    "weekdays": "all",
+                    "departments": []
+                },
+        "compliance": {
+                    "email": false,
+                    "hours": "all",
+                    "push": true,
+                    "text": false,
+                    "weekdays": "all",
+                    "departments": []
+                },
+        "core": {
+                    "email": false,
+                    "hours": "all",
+                    "push": true,
+                    "text": false,
+                    "weekdays": "all",
+                    "departments": []
+                }
+    },
+    "AssetsViewer/AssetsTechnician":{
+        "assets": {
+                    "email": false,
+                    "hours": "all",
+                    "push": true,
+                    "text": false,
+                    "weekdays": "all",
+                    "departments": []
+                },
+        "compliance": {
+                    "email": false,
+                    "hours": "all",
+                    "push": true,
+                    "text": false,
+                    "weekdays": "all",
+                    "departments": []
+                }
+    },
+    "roleID":{
+       "EnvironmentalViewer":226,
+       "HospitalManager":172,
+       "HospitalTechnician":173,
+       "ProsightAdministrator":175,
+       "AssetsViewer":179,
+       "HospitalViewer":180,
+       "EnvironmentManager":225,
+       "EnvironmentTechnician":176,
+       "HospitalAdministrator":177,
+       "HospitalEmployee":178,
+       "AssetsTechnician":182,
+       "SafetyTechnician":186,
+       "safetyViewer":183
+    }
+}

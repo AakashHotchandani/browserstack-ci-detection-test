@@ -1,0 +1,23 @@
+{
+  "plugins": ["cypress"],
+  "rules": {
+    "cypress/no-assigning-return-values": "error",
+    "cypress/no-unnecessary-waiting": "error",
+    "cypress/assertion-before-screenshot": "warn",
+    "cypress/no-force": "warn",
+    "cypress/no-async-tests": "error",
+    "cypress/no-pause": "error",
+    "no-unused-expressions": "error",
+    "no-multi-spaces": "error"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "requireConfigFile": false
+  },
+  "parser": "@babel/eslint-parser",
+  "extends": ["eslint:recommended", "plugin:cypress/recommended"],
+  "env": {
+    "cypress/globals": true
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "oneTime_Reports": {
+    "report1": {
+      "reportName": "one time report 1 - SMARTHOSP-TC-4996",
+      "reportType": "Asset Status Report",
+      "lastNDays": 7,
+      "department": "CT",
+      "assetType": "Camera",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "One Time",
+      "reportDelivery": "Send Now"
+    },
+    "report2": {
+      "reportName": "one time report 2 - SMARTHOSP-TC-4996",
+      "reportType": "Asset Utilization Report",
+      "lastNDays": 7,
+      "department": "CT",
+      "assetType": "Camera",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "One Time",
+      "reportDelivery": "Send Now"
+    },
+    "report3": {
+      "reportName": "one time report 3 - SMARTHOSP-TC-4996",
+      "reportType": "Missing Report",
+      "lastNDays": 7,
+      "department": "CT",
+      "assetType": "Camera",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "One Time",
+      "reportDelivery": "Send Now"
+    },
+    "report4": {
+      "reportName": "one time report 4 - SMARTHOSP-TC-4996",
+      "reportType": "Rentals Report",
+      "lastNDays": 7,
+      "department": "CT",
+      "assetType": "Camera",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "One Time",
+      "reportDelivery": "Send Now"
+    },
+    "report5": {
+      "reportName": "one time report 5 - SMARTHOSP-TC-4996",
+      "reportType": "Alerts Report",
+      "lastNDays": 7,
+      "department": "CT",
+      "assetType": "Camera",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "One Time",
+      "reportDelivery": "Send Now"
+    }
+  },
+  "oneTime_ScheduleReports": {
+    "report6": {
+      "reportName": "report 6 - SMARTHOSP-TC-4996",
+      "reportType": "PAR Level Frequency Report",
+      "lastNDays": 7,
+      "department": "CT",
+      "assetType": "Camera",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "One Time",
+      "reportDelivery": "Send Later"
+    },
+    "report7": {
+      "reportName": "report 7 - SMARTHOSP-TC-4996",
+      "reportType": "PAR Level Variance Report",
+      "lastNDays": 7,
+      "department": "CT",
+      "assetType": "Camera",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "One Time",
+      "reportDelivery": "Send Later"
+    },
+    "report8": {
+      "reportName": "report 8 - SMARTHOSP-TC-4996",
+      "reportType": "Preventative Maintenance Report",
+      "lastNDays": 7,
+      "department": "CT",
+      "assetType": "Camera",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "One Time",
+      "reportDelivery": "Send Later"
+    },
+    "report9": {
+      "reportName": "report 9 - SMARTHOSP-10437",
+      "reportType": "Exit Alert History",
+      "lastNDays": 30,
+      "department": "CT",
+      "assetType": "Camera",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "One Time",
+      "reportDelivery": "Send Later"
+    },
+    "report10": {
+      "reportName": "report 10 - SMARTHOSP-10437",
+      "reportType": "Asset Process Exception",
+      "lastNDays": 30,
+      "department": "CT",
+      "assetType": "Camera",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "One Time",
+      "reportDelivery": "Send Later"
+    }
+  },
+  "recurringReports": {
+    "report11": {
+      "reportName": "report 11 - SMARTHOSP-10437",
+      "reportType": "Asset Location Report",
+      "lastNDays": 30,
+      "department": "CT",
+      "assetType": "Camera",
+      "assetName": "Camera1",
+      "building": "BRACC",
+      "location": "location1",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "Recurring Report",
+      "reportDelivery": "Send Later",
+      "frequency": "Daily"
+    },
+    "report12": {
+      "reportName": "report 12 - SMARTHOSP-10437",
+      "reportType": "Low Utilization Report",
+      "lastNDays": 7,
+      "department": "CT",
+      "assetType": "Camera",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "Recurring Report",
+      "reportDelivery": "Send Later",
+      "frequency": "Daily"
+    },
+    "report13": {
+      "reportName": "report 13 - SMARTHOSP-10437",
+      "reportType": "Processing Time Report (At Asset Type Level)",
+      "lastNDays": 30,
+      "department": "CT",
+      "assetType": "Camera",
+      "assetName": "Camera1",
+      "building": "BRACC",
+      "location": "location1",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "Recurring Report",
+      "reportDelivery": "Send Later",
+      "frequency": "Daily"
+    },
+    "report14": {
+      "reportName": "report 14 - SMARTHOSP-10437",
+      "reportType": "Processing Time Report (At Asset Level)",
+      "lastNDays": 30,
+      "department": "CT",
+      "assetType": "Camera",
+      "assetName": "Camera1",
+      "building": "BRACC",
+      "location": "location1",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "Recurring Report",
+      "reportDelivery": "Send Later",
+      "frequency": "Daily"
+    }
+  },
+  "reportsForEditTestCase": {
+    "report3": {
+      "reportName": "report 3 - SMARTHOSP-TC-4000",
+      "reportType": "Asset Status Report",
+      "department": "10th Floor Main Tower",
+      "assetType": "Camera",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "Recurring Report",
+      "departmentId": "3LkHxSkKhYebE96hXh6JIk",
+      "frequency": "Daily"
+    },
+    "report3Edit": {
+      "reportName": "SMARTHOSP Edit",
+      "reportType": "Asset Status Report",
+      "email": "tester@gmail.com",
+      "scheduleType": "Recurring Report"
+    }
+  },
+  "reportsForDeleteTestCase": {
+    "report1": {
+      "reportName": "report 1 - SMARTHOSP Asset Report",
+      "reportType": "Asset Status Report",
+      "department": "10th Floor Main Tower",
+      "assetType": "Camera",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "Recurring Report",
+      "departmentId": "3LkHxSkKhYebE96hXh6JIk"
+    },
+    "report2": {
+      "reportName": "report 2 - SMARTHOSP Asset report",
+      "reportType": "Asset Utilization Report",
+      "department": "10th Floor Main Tower",
+      "assetType": "Camera",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "Recurring Report",
+      "departmentId": "3LkHxSkKhYebE96hXh6JIk"
+    },
+    "report3": {
+      "reportName": "report 3 - SMARTHOSP-TC-8552",
+      "reportType": "Missing Report",
+      "department": "10th Floor Main Tower",
+      "assetType": "Camera",
+      "email": "chinmayee.s@codecraft.co.in",
+      "scheduleType": "Recurring Report",
+      "departmentId": "3LkHxSkKhYebE96hXh6JIk"
+    }
+  }
+}

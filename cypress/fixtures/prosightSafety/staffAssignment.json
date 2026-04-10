@@ -1,0 +1,156 @@
+{
+  "hospitalName": "Oschner Lafayette General1",
+  "departmentName": "QA_StaffManagment_Department",
+  "departmentBoundaryName": "QA_StaffManagment_Boundary",
+  "buildingName": "BRACC",
+  "buildingId": "4UAoO7IFOStsrb3tyREwiO",
+  "floorDetails": {
+    "floorName": "StaffManagement_Floor",
+    "floorNumber": "staff111"
+  },
+  "roomDetails": {
+    "roomTypeName": "QA_StaffManagement_Room",
+    "assetStatus": "Available",
+    "utilizationState": "Not Utilized",
+    "monitorCompliance": "No"
+  },
+  "locationDetails": {
+    "roomName_1": "QaStaffManagement_Room1",
+    "roomName_2": "QaStaffManagement_Room2",
+    "roomType": "QA_STaffManagement_Room"
+  },
+  "staff_Typee": "QA_StaffManagment_Type",
+  "staff1": {
+    "staffName": "SMARTHOSP-7775",
+    "staffId": "SID77756",
+    "department": "QA_StaffManagment_Department",
+    "staffType": "QA_StaffManagment_Type"
+  },
+  "staff2": {
+    "staffName": "SMARTHOSP-7775Staff2",
+    "staffId": "SID77759",
+    "department": "QA_StaffManagment_Department",
+    "staffType": "QA_StaffManagment_Type"
+  },
+  "staff3": {
+    "staffName": "SMARTHOSP-7776Staff",
+    "staffId": "77769",
+    "department": "QA_StaffManagment_Department",
+    "staffType": "QA_StaffManagment_Type"
+  },
+  "staffType": {
+    "name1": "SMARTHOSP78790",
+    "name2": "SMARTHOSP7871",
+    "editStaffTypeName": "SMARTHOSP7871Edit",
+    "staffTypeForDeleteTestCase": {
+      "name3": "SMARTHOSP7872",
+      "name4": "SMARTHOSP7872A"
+    },
+    "name5": "SMARTHOSP8880staffType1",
+    "name6": "SMARTHOSP8880staffType2",
+    "name7": "SMARTHOSP8880staffType3",
+    "name8": "SMARTHOSP8880staffType4",
+    "name9": "SMARTHOSP8890staffType1",
+    "name10": "SMARTHOSP8890staffType2",
+    "name11": "SMARTHOSP8909staffType",
+    "staffTypeDataForNegativeScenariosOnDesktop": {
+      "name12": "SMARTHOSP9306staffType1",
+      "name13": "SMARTHOSP9306staffType1",
+      "name14": "$%*#%$*$%^$@$%^"
+    }
+  },
+  "staff4": {
+    "staffName": "SMARTHOSP -7791Staff",
+    "staffId": "777691",
+    "department": "QA_StaffManagment_Department",
+    "staffType": "QA_StaffManagment_Type"
+  },
+  "staffsForDeleteTestCase": {
+    "staff5": {
+      "staffName": "SMARTHOSP -7791Staff2",
+      "staffId": "777692",
+      "department": "QA_StaffManagment_Department",
+      "staffType": "QA_StaffManagment_Type"
+    },
+    "staff6": {
+      "staffName": "SMARTHOSP -7791Staff3",
+      "staffId": "777693",
+      "department": "QA_StaffManagment_Department",
+      "staffType": "QA_StaffManagment_Type"
+    },
+    "staff7": {
+      "staffName": "SMARTHOSP -7846Staff",
+      "staffId": "784693",
+      "department": "QA_StaffManagment_Department",
+      "staffType": "QA_StaffManagment_Type"
+    }
+  },
+  "staffsForEditTestCase": {
+    "staff25": {
+      "newStaffName": "SMARTHOSP-7776-Staff2",
+      "newStaffId": "77767",
+      "newDepartment": "QA_StaffManagment_Department",
+      "newStaffType": "Physician"
+    },
+    "staff27": {
+      "newStaffName": "SMARTHOSP-7776-Staff4",
+      "newStaffId": "77768",
+      "newDepartment": "QA_StaffManagment_Department",
+      "newStaffType": "QA_StaffManagment_Type"
+    }
+  },
+  "staff26": {
+    "staffName": "SMARTHOSP-7776-Staff3",
+    "staffId": "77770",
+    "department": "QA_StaffManagment_Department",
+    "staffType": "QA_StaffManagment_Type"
+  },
+  "staffDataForNegativeScenariosOnDesktop": {
+    "staff18": {
+      "staffName": "SMARTHOSP-9300-Staff1",
+      "staffId": "930001",
+      "department": "QA_StaffManagment_Department",
+      "staffType": "QA_StaffManagment_Type"
+    },
+    "staff19": {
+      "staffName": "SMARTHOSP-9300-Staff1",
+      "staffId": "930001",
+      "department": "QA_StaffManagment_Department",
+      "staffType": "QA_StaffManagment_Type"
+    },
+    "staff20": {
+      "staffName": " ",
+      "staffId": "930002",
+      "department": "QA_StaffManagment_Department",
+      "staffType": "QA_StaffManagment_Type"
+    },
+    "staff21": {
+      "staffName": "SMARTHOSP-9300-Staff2",
+      "staffId": "930001",
+      "department": "QA_StaffManagment_Department",
+      "staffType": "QA_StaffManagment_Type"
+    },
+    "staff22": {
+      "staffName": "SMARTHOSP-9300-Staff3",
+      "staffId": " ",
+      "department": "QA_StaffManagment_Department",
+      "staffType": "QA_StaffManagment_Type"
+    },
+    "staff23": {
+      "staffName": "SMARTHOSP-9300-Staff4",
+      "staffId": "930003",
+      "department": "QA_StaffManagment_Department",
+      "staffType": "QA_StaffManagment_Type",
+      "email": "smartHosp9300",
+      "phoneNumber": 7859579789
+    },
+    "staff24": {
+      "staffName": "SMARTHOSP-9300-Staff5",
+      "staffId": "930004",
+      "department": "QA_StaffManagment_Department",
+      "staffType": "QA_StaffManagment_Type",
+      "email": "smartHosp9300@gmail.com",
+      "phoneNumber": 7859579789897
+    }
+  }
+}

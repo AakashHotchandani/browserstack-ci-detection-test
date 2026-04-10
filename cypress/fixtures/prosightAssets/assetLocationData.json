@@ -1,0 +1,53 @@
+{
+  "hospitalName": "Oschner Lafayette General1",
+  "departmentBoundaryName": "QAAssetLocationBoundary",
+  "locationName": "QaAssetLocationRoom1",
+  "previousRoomName": "QaAssetLocationRoom2",
+  "departmentName": "QA_AssetLocationDepartment",
+  "buildingName": "BRACC",
+  "buildingId": "4UAoO7IFOStsrb3tyREwiO",
+  "assetTagDetails": {
+    "deviceId": "QAAssetLocationTag",
+    "type": "Asset Tag",
+    "manufacturer": "Kontak",
+    "model": "Asset Tag Location 2",
+    "floorName": "AssetLocationFloor",
+    "locationName": "QaAssetLocationRoom1",
+    "previousRoomName": "QaAssetLocationRoom2",
+    "departmentName": "QA_AssetLocationDepartment",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "assetDetails": {
+    "deviceId": "QAAssetLocationTag",
+    "assetName": "QALocationAsset1",
+    "assetType": "QALocationAssetType",
+    "assetId": "QALocationAsset-9011",
+    "serialNumber": "Location1234567",
+    "valueDefault": "at at-default",
+    "departmentName": "QA_AssetLocationDepartment",
+    "departmentID": null,
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO",
+    "floorName": "AssetLocationFloor",
+    "floorID": null,
+    "locationName": "QaAssetLocationRoom1",
+    "locationID": null,
+    "previousRoomName": "QaAssetLocationRoom2"
+  },
+  "roomDetails": {
+    "roomTypeName": "QA_AssetLocationRoom",
+    "assetStatus": "Available",
+    "utilizationState": "Not Utilized",
+    "monitorCompliance": "No"
+  },
+  "locationDetails": {
+    "roomName_1": "QaAssetLocationRoom1",
+    "roomName_2": "QaAssetLocationRoom2",
+    "roomType": "QA_AssetLocationRoom"
+  },
+  "floorDetails": {
+    "floorName": "AssetLocationFloor",
+    "floorNumber": "aloc12345"
+  }
+}

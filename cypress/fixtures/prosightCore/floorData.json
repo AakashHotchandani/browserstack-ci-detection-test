@@ -1,0 +1,24 @@
+{
+    "dataSet1": {
+        "floorSet1": {
+            "floorName": "Core Floor 1",
+            "floorNumber": "CF1"
+        }
+    },
+    "dataSet2": {
+        "floorSet2": {
+            "floorName": "Core Floor 2",
+            "floorNumber": "CF2"
+        },
+        "floorSet3": {
+            "floorName": "core Floor Edit",
+            "floorNumber": "CFE2"
+        }
+    },
+    "dataSet3": {
+        "floorSet4": {
+            "floorName": "Core Floor 3",
+            "floorNumber": "CF3"
+        }
+    }
+}

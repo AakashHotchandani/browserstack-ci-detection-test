@@ -1,0 +1,240 @@
+{
+  "hospital": "Oschner Lafayette General",
+  "building": "LGMC",
+  "asset_Type_Desktop": "Auto Asset Type Desktop",
+  "asset1": {
+    "assetName": "ASSET1-Automation test",
+    "assetId": "00225",
+    "serialNumber": "1H:T6:9O:78",
+    "departmentName": "9 Westneelu",
+    "assetType": "Auto Asset Type Desktop",
+    "manufacturer": "SMITH MEDICAL1",
+    "modelNum": "HL-3901",
+    "maintenanceDay": "Quarterly",
+    "rentedOption": "Owned"
+  },
+  "asset2": {
+    "assetName": "ASSET2-SMARTHOSP-TC-4974",
+    "assetId": "2345",
+    "serialNumber": "1F:TM:9J:74",
+    "departmentName": "Radiology",
+    "assetType": "Auto Asset Type Desktop",
+    "manufacturer": "SMITH MEDICAL1",
+    "modelNum": "HL977",
+    "maintenanceDay": "Annually",
+    "rentedOption": "Rented",
+    "rentalDueDate": "07/04/2024"
+  },
+  "asset3": {
+    "assetName": "ASSET3-SMARTHOSP-TC-4974",
+    "assetId": "2385",
+    "serialNumber": "56788",
+    "assetType": "Auto Asset Type Desktop",
+    "modelNum": "HL970",
+    "departmentName": "Test Department Name Changed"
+  },
+  "asset4": {
+    "assetName": "ASSET4-SMARTHOSP-TC-4974",
+    "assetId": "2300",
+    "serialNumber": "56722",
+    "departmentName": "9 Westneelu",
+    "assetType": "Auto Asset Type Desktop",
+    "manufacturer": "SMITH MEDICAL1",
+    "modelNum": "HL970",
+    "rentedOption": "Owned"
+  },
+  "assetsForDeleteTestCase": {
+    "asset5": {
+      "assetName": "ASSET5-SMARTHOSP-TC-4974",
+      "assetId": "23343",
+      "serialNumber": "5673322",
+      "departmentName": "Radiology",
+      "assetType": "Auto Asset Type Desktop",
+      "modelNum": "HL9700",
+      "maintenanceDay": "Monthly",
+      "rentedOption": "Rented",
+      "rentalDueDate": "08/05/2024"
+    },
+    "asset6": {
+      "assetName": "ASSET6-SMARTHOSP-TC-4972",
+      "assetId": "00222",
+      "serialNumber": "2325",
+      "departmentName": "9 Westneelu",
+      "assetType": "Auto Asset Type Desktop",
+      "manufacturer": "SMITH MEDICAL1",
+      "modelNum": "HL-3901",
+      "maintenanceDay": "05/20/2024",
+      "rentedOption": "Owned"
+    },
+    "asset7": {
+      "deviceId": "SMARTHOSP-TC-4972",
+      "assetName": "ASSET7-SMARTHOSP-TC-4972",
+      "assetId": "23452",
+      "serialNumber": "56789",
+      "departmentName": "Radiology",
+      "assetType": "Auto Asset Type Desktop",
+      "manufacturer": "SMITH MEDICAL1",
+      "modelNum": "HL977",
+      "maintenanceDay": "07/26/2024",
+      "rentedOption": "Rented",
+      "rentalDueDate": "07/04/2024"
+    }
+  },
+  "asset8": {
+    "assetName": "ASSET8-SMARTHOSP-TC-4972",
+    "assetId": "23852",
+    "serialNumber": "56788",
+    "departmentName": "Radiology",
+    "assetType": "Auto Asset Type Desktop",
+    "manufacturer": "SMITH MEDICAL1",
+    "modelNum": "HL970",
+    "maintenanceDay": "Annually",
+    "rentedOption": "Owned"
+  },
+  "asset9": {
+    "deviceId": "SMARTHOSP-TC-4980",
+    "assetName": "ASSET9-SMARTHOSP-TC-4980",
+    "assetId": "2385998",
+    "serialNumber": "567880",
+    "departmentName": "Radiology",
+    "assetType": "Auto Asset Type Desktop",
+    "modelNum": "HL970",
+    "maintenanceDay": "Quarterly",
+    "rentedOption": "Owned"
+  },
+  "asset10": {
+    "deviceId": "SMARTHOSP-TC-4951",
+    "assetName": "ASSET10-SMARTHOSP-TC-4974",
+    "assetType": "Type-TC-4974",
+    "assetId": "ID-TC-4974",
+    "serialNumber": "Num-TC-4974",
+    "assetTypeName": "assetType",
+    "valueDefault": "at at-default"
+  },
+  "asset11": {
+    "deviceId": "SMARTHOSP-TC-4949",
+    "assetName": "ASSET11-SMARTHOSP-TC-4974",
+    "assetType": "Type-TC-4949",
+    "assetId": "ID-TC-4949",
+    "serialNumber": "Num-TC-4949",
+    "assetTypeName": "assetType",
+    "valueDefault": "at at-default"
+  },
+  "asset112": {
+    "deviceId": "1SMARTHOSP-TC-4949",
+    "assetName": "1ASSET11-SMARTHOSP-TC-4974",
+    "assetType": "1Type-TC-4949",
+    "assetId": "1ID-TC-4949",
+    "serialNumber": "1Num-TC-4949",
+    "assetTypeName": "assetType",
+    "valueDefault": "at at-default"
+  },
+  "asset12": {
+    "deviceId": "SMARTHOSP-TC-4937",
+    "assetName": "ASSET12-SMARTHOSP-TC-4937",
+    "assetType": "Type-TC-4937",
+    "assetId": "ID-TC-4937",
+    "serialNumber": "1Num-TC-4937",
+    "assetTypeName": "assetType",
+    "valueDefault": "at at-default"
+  },
+  "asset121": {
+    "deviceId": "1SMARTHOSP-TC-4937",
+    "assetName": "1ASSET12-SMARTHOSP-TC-4937",
+    "assetType": "1Type-TC-4937",
+    "assetId": "1ID-TC-4937",
+    "serialNumber": "1Num-TC-4937",
+    "assetTypeName": "assetType",
+    "valueDefault": "at at-default"
+  },
+  "asset14": {
+    "assetName": "SMARTHOSP-TC-8728",
+    "assetId": "Num-TC-8728",
+    "serialNumber": "8728",
+    "departmentName": "Oncology",
+    "assetType": "Automation Asset Type",
+    "rentedOption": "Rented",
+    "rentalDueDate": "07/04/2034"
+  },
+  "asset15": {
+    "assetName": "SMARTHOSP2-TC-8728",
+    "assetId": "Num2-TC-8728",
+    "assetType": "Automation Asset Type",
+    "serialNumber": "8729"
+  },
+  "asset16": {
+    "assetName": "SMARTHOSP3-TC-8728",
+    "assetId": "Num3-TC-8728",
+    "assetType": "Automation Asset Type",
+    "departmentName": "Hematology",
+    "manufacturer": "SMITH MEDICAL1",
+    "modelNum": "HL977",
+    "serialNumber": "8730",
+    "maintenanceDay": "Monthly",
+    "rentedOption": "Rented",
+    "rentalDueDate": "07/04/2034"
+  },
+  "asset17": {
+    "assetName": "SMARTHOSP4-TC-8728",
+    "assetId": "Num4-TC-8728",
+    "assetType": "Automation Asset Type",
+    "serialNumber": "8731"
+  },
+  "asset18": {
+    "tagId": "SMARTHOSP-TC-8728-Tag1",
+    "assetName": "SMARTHOSP5-TC-8728",
+    "assetId": "Num5-TC-8728",
+    "assetType": "Automation Asset Type",
+    "serialNumber": "8732"
+  },
+  "asset19": {
+    "tagId": "SMARTHOSP-TC-8728-Tag2",
+    "assetName": "SMARTHOSP6-TC-8728",
+    "assetId": "Num6-TC-8728",
+    "serialNumber": "8733",
+    "departmentName": "Hematology",
+    "assetType": "Automation Asset Type",
+    "rentedOption": "Rented",
+    "rentalDueDate": "07/06/2034"
+  },
+  "asset20": {
+    "tagId": "SMARTHOSP-TC-8781-Tag1",
+    "assetName": "SMARTHOSP-TC-8781",
+    "assetId": "Num-TC-8781",
+    "assetType": "Automation Asset Type",
+    "serialNumber": "8781"
+  },
+  "asset21": {
+    "tagId": "SMARTHOSP-TC-8814-Tag2",
+    "assetName": "SMARTHOSP-TC-8814",
+    "assetId": "Num2-TC-8814",
+    "assetType": "Automation Asset Type",
+    "serialNumber": "8814"
+  },
+  "assetDataForNegativeScenarios": {
+    "asset22": {
+      "assetName": "ASSET-TC-9313",
+      "assetId": "93131",
+      "serialNumber": "993311",
+      "assetType": "Auto Asset Type Desktop",
+      "departmentName": "9 Westneelu",
+      "rentedOption": "Owned"
+    },
+    "asset23": {
+      "assetName": "ASSET-TC-9313",
+      "assetId": "93132",
+      "serialNumber": "993311",
+      "assetType": "Auto Asset Type Desktop",
+      "departmentName": "9 Westneelu",
+      "rentedOption": "Owned"
+    },
+    "asset24": {
+      "assetName": "ASSET-TC-9314",
+      "assetId": "93131",
+      "serialNumber": "993311",
+      "assetType": "Auto Asset Type Desktop",
+      "departmentName": "9 Westneelu",
+      "rentedOption": "Owned"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "Safety":{
+        "safetyViewer":{
+        "overviewdashboard":"Overview Dashboard",
+        "alerts":"Alerts",
+        "mapView":"Location"
+      }
+    }
+}

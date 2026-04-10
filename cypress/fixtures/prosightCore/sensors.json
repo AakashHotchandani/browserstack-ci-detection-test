@@ -1,0 +1,47 @@
+{
+    "sensorType": [
+        "Ambient",
+        "Standard Temp",
+        "Ultra Low Temp",
+        "Vaccines (VFC"
+    ],
+    "manufacturer": "Centrak",
+    "modelName": "Test9871d",
+    "editedModelName": "Test678d1",
+    "sensor1": {
+        "sensorId": "1J:G9:L6",
+        "sensorType": "Ambient",
+        "manufacturer": "Centrak",
+        "modelName": "SMARTHOSP"
+    },
+    "sensor2": {
+        "sensorId": "8E:S9:P6",
+        "sensorType": "Ambient",
+        "manufacturer": "Centrak",
+        "modelName": "SMARTHOSP-7958"
+    },
+    "sensor3": {
+        "sensorId": "8E:S9:P6",
+        "sensorType": "Ambient",
+        "manufacturer": "Centrak",
+        "modelName": "SMARTHOSP-7958"
+    },
+    "sensor4": {
+        "sensorId": "BS:S9:I6",
+        "sensorType": "Ambient",
+        "manufacturer": "Centrak",
+        "modelName": "SMARTHOSP-7984"
+    },
+    "createSensorData": {
+        "sensorId": "1Q:2A",
+        "sensorType": "Ambient",
+        "manufacturerName": "Centrak",
+        "model": "Test9871d"
+    },
+    "editCreatedSensor": {
+        "sensorId": "1Q:2A",
+        "sensorType": "Ambient",
+        "manufacturerName": "Centrak",
+        "model": "Test678d1"
+    }
+}

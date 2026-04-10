@@ -1,0 +1,41 @@
+/**
+ * This file consists various parameter options of all cypress commands/functions
+ */
+
+export default {
+  force: { force: true },
+  scrollBottom: 'bottom',
+  scrollRight: 'right',
+  duration: { duration: 20000 },
+  enter: '{enter}',
+  text: 'text',
+  mouseDown: 'mousedown',
+  mousemove: 'mousemove',
+  mouseup: 'mouseup',
+  multiple: { multiple: true },
+  csvFile: '.csv',
+  contains: { contains: true },
+  enabled: 'be.enabled',
+  dataValue: 'data-value',
+  true: 'true',
+  notContain: 'not.contain',
+  checked: 'be.checked',
+  visible: 'be.visible',
+  haveAttribute: 'have.attr',
+  bottomRight: 'bottomRight',
+  haveLength: 'have.length',
+  disabled: 'be.disabled',
+  haveText: 'have.text',
+  notHaveText: 'not.have.text',
+  containsText: 'contain.text',
+  exist: 'exist',
+  notExist: 'not.exist',
+  haveValue: 'have.value',
+  requestMethod: {
+    post: 'POST',
+    get: 'GET',
+    delete: 'DELETE',
+    patch: 'PATCH',
+    put: 'PUT',
+  },
+}

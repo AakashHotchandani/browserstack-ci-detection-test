@@ -1,0 +1,70 @@
+{
+  "hospitalName": "Oschner Lafayette General1",
+  "departmentBoundaryName": "QAAssetBoundary",
+  "locationName": "QaAssetRoom1",
+  "previousRoomName": "QaAssetRoom2",
+  "departmentName": "QA_AssetDepartment",
+  "buildingName": "BRACC",
+  "buildingId": "4UAoO7IFOStsrb3tyREwiO",
+  "assetTagDetails": {
+    "deviceId": "QAAssetTag",
+    "type": "Asset Tag",
+    "manufacturer": "Kontak",
+    "model": "Asset Tag 2",
+    "floorName": "AssetFloor",
+    "locationName": "QaAssetRoom1",
+    "previousRoomName": "QaAssetRoom2",
+    "departmentName": "QA_AssetDepartment",
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO"
+  },
+  "assetDetails": {
+    "deviceId": "QAAssetTag",
+    "assetName": "QAAsset1",
+    "assetType": "QAAssetType",
+    "assetId": "QAAsset-9011",
+    "serialNumber": " Serial-SMARTHOSP-9059",
+    "valueDefault": "at at-default",
+    "departmentName": "QA_AssetDepartment",
+    "departmentID": null,
+    "buildingName": "BRACC",
+    "buildingId": "4UAoO7IFOStsrb3tyREwiO",
+    "floorName": "AssetFloor",
+    "floorID": null,
+    "locationName": "QaAssetRoom1",
+    "locationID": null,
+    "previousRoomName": "QaAssetRoom2",
+    "prevLocationID": null
+  },
+  "roomDetails": {
+    "roomTypeName": "QA_AssetRoom",
+    "assetStatus": "Available",
+    "utilizationState": "Not Utilized",
+    "monitorCompliance": "No"
+  },
+  "locationDetails": {
+    "roomName_1": "QaAssetRoom1",
+    "roomName_2": "QaAssetRoom2",
+    "roomType": "QA_AssetRoom"
+  },
+  "floorDetails": {
+    "floorName": "AssetFloor",
+    "floorNumber": "a12345"
+  },
+  "assetAlertTypes": {
+    "assetAlerts": {
+      "shrinkage": "Asset Exited Building",
+      "maintenanceDue": "Maintenance Due",
+      "rentalDue": "Rental Due",
+      "stockedOut": "Stocked Out",
+      "criticallyUnderPAR": "Critically Under PAR",
+      "underPar": "Under PAR",
+      "tagLowBattery": "Tag Low Battery",
+      "tagOffline": "Tag Offline"
+    },
+    "batteryStatus": {
+      "batteryPercentage": 11,
+      "batteryStatus": "CRITICAL"
+    }
+  }
+}

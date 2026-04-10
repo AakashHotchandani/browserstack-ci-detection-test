@@ -1,0 +1,24 @@
+{
+  "tag1": {
+    "deviceId": "Automation-Asset-testing-device-mob",
+    "type": "Asset Tag",
+    "manufacturer": "Kontak",
+    "model": "Asset Tag 2 mob",
+    "floorName": "AssetManagementMobFloor",
+    "locationName": "QaAssetManagementMobRoom1",
+    "previousRoomName": "QaAssetManagementMobRoom2",
+    "departmentName": "QA_AssetMangemobDepartment",
+    "buildingName": "BRACC"
+  },
+  "tag2": {
+    "deviceId": "Automation-Asset-Tag-001-mob",
+    "type": "Asset Tag",
+    "manufacturer": "Kontak",
+    "model": "Asset Tag 2 mob",
+    "floorName": "AssetManagementMobFloor",
+    "locationName": "QaAssetManagementMobRoom1",
+    "previousRoomName": "QaAssetManagementMobRoom2",
+    "departmentName": "QA_AssetMangemobDepartment",
+    "buildingName": "BRACC"
+  }
+}

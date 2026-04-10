@@ -1,0 +1,98 @@
+{
+    "oneTimeReports": {
+        "report1": {
+            "reportType": "Facility Compliance Report",
+            "reportName": "Facility Auto Test",
+            "scheduleType": "One Time",
+            "email": "nk462@gmail.com"
+        },
+        "report2": {
+            "reportType": "Compliance Report",
+            "reportName": "Compliance Auto Test",
+            "scheduleType": "One Time",
+            "complianceLevel": "Department",
+            "email": "nk462@gmail.com"
+        },
+        "report3": {
+            "reportType": "Leadership Board",
+            "reportName": "Leadership Auto Test",
+            "scheduleType": "One Time",
+            "staffType": "all",
+            "email": "nk462@gmail.com"
+        },
+        "report4": {
+            "reportType": "Alerts Report",
+            "reportName": "Alerts Auto Test",
+            "scheduleType": "One Time",
+            "staffType": "all",
+            "email": "nk462@gmail.com"
+        }
+    },
+    "recurringReports": {
+        "report1": {
+            "reportType": "Facility Compliance Report",
+            "reportName": "Facility Auto Test",
+            "scheduleType": "Recurring Report",
+            "email": "nk462@gmail.com",
+            "frequency": "Daily"
+        },
+        "report2": {
+            "reportType": "Compliance Report",
+            "reportName": "Compliance Auto Test",
+            "scheduleType": "Recurring Report",
+            "complianceLevel": "Department",
+            "email": "nk462@gmail.com",
+            "frequency": "Daily"
+        },
+        "report3": {
+            "reportType": "Leadership Board",
+            "reportName": "Leadership Auto Test",
+            "scheduleType": "Recurring Report",
+            "staffType": "all",
+            "email": "nk462@gmail.com",
+            "frequency": "Daily"
+        },
+        "report4": {
+            "reportType": "Alerts Report",
+            "reportName": "Alerts Auto Test",
+            "scheduleType": "Recurring Report",
+            "staffType": "all",
+            "email": "nk462@gmail.com",
+            "frequency": "Daily"
+        }
+    },
+    "reportsForEditTestCase": {
+        "report5": {
+            "reportType": "Facility Compliance Report",
+            "reportName": "Facility Edit Test",
+            "scheduleType": "One-Time Report",
+            "email": "nk462@gmail.com"
+        },
+        "report5Edit": {
+            "reportName": "Facility Edit 852",
+            "reportType": "Facility Compliance Report",
+            "email": "nk90@gmail.com",
+            "scheduleType": "One-Time Report"
+        }
+    },
+    "reportsForDeleteTestCase": {
+        "report6": {
+            "reportType": "Facility Compliance Report",
+            "reportName": "Facility Delete Test",
+            "scheduleType": "One-Time Report",
+            "email": "nk462@gmail.com"
+        },
+        "report7": {
+            "reportType": "Facility Compliance Report",
+            "reportName": "Compliance delete Test",
+            "scheduleType": "One-Time Report",
+            "email": "nk462@gmail.com"
+        },
+        "report8": {
+            "reportType": "Facility Compliance Report",
+            "reportName": "Alerts delete Test",
+            "scheduleType": "One-Time Report",
+            "email": "nk462@gmail.com"
+        }
+    }
+}

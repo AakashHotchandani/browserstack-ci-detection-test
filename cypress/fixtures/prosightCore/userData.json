@@ -1,0 +1,55 @@
+{
+    "departmentName": "userDepartment",
+    "buildingName": "BRACC",
+    "hospitalName": "Oschner Lafayette General1",
+    "user1": {
+        "name": "SMARTHOSP-7571 - QA Test Users",
+        "email": "smarthosp-757@gmail.com",
+        "username": "smarthosp-757@gmail.com",
+        "phone": "1134534543",
+        "role": "Hospital Administrator",
+        "department": "userDepartment"
+    },
+    "user2": {
+        "name": "SMARTHOSP-7606 - QA Test User2",
+        "email": "smarthosp-7606@gmail.com",
+        "username": "smarthosp-7606@gmail.com",
+        "phone": "1134534544",
+        "role": "Hospital Viewer",
+        "department": "userDepartment"
+    },
+    "user3": {
+        "name": "SMARTHOSP-7606 - QA Test User3",
+        "email": "2smarthosp-7606@gmail.com",
+        "username": "2smarthosp-7606@gmail.com",
+        "phone": "1134534549",
+        "role": "Safety Viewer",
+        "department": "userDepartment"
+    },
+    "user4": {
+        "name": "SMARTHOSP-7607 - QA TESTING EDIT",
+        "username": "smarthosp-7607@gmail.com",
+        "email": "smarthosp-7607@gmail.com",
+        "role": "Safety Technician",
+        "department": "userDepartment"
+    },
+    "user5": {
+        "name": "SMARTHOSP-7607 - QA TESTING EDIT2",
+        "username": "smarthosp-7607@gmail.com",
+        "email": "smarthosp-7607@gmail.com",
+        "role": "Safety Technician",
+        "department": "userDepartment"
+    },
+    "user6": {
+        "name": "SMARTHOSP-7607 - QA TESTING EDIT2",
+        "username": "smarthosp-7607@gmail.com",
+        "email": "smarthosp-7607@gmail.com",
+        "role": "Hospital Technician",
+        "department": "userDepartment"
+    },
+    "userToInvite": {
+        "email": "smarthosp-7694@cox.com",
+        "hospital": "Oschner Lafayette General1",
+        "role": "Environment Manager"
+    }
+}

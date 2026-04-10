@@ -1,0 +1,85 @@
+{
+    "hospitalName": "Oschner Lafayette General1",
+    "departmentBoundaryName": "QAStaffBoundary",
+    "staffTagDetails": {
+        "deviceId": "QAStaffTag",
+        "type": "Staff Tag",
+        "manufacturer": "HID",
+        "model": "Beacon Card V4",
+        "floorName": "StaffFloor",
+        "locationName": "QaStaffRoom1",
+        "departmentName": "QA_StaffDepartment",
+        "buildingName": "BRACC",
+        "buildingId": "4sqr23Qxh8tjYlBKpCVPEI",
+        "previousRoomName": "QaStaffRoom2"
+    },
+    "staffDetails": {
+        "deviceId": "QAStaffTag",
+        "staffName": "QAStaff",
+        "staffType": "QAStaffType",
+        "staffId": "QA-8083",
+        "departmentName": "QA_StaffDepartment",
+        "buildingName": "BRACC",
+        "floorName": "StaffFloor",
+        "locationName": "QaStaffRoom1",
+        "valueDefault": "st st-staff"
+    },
+    "staffTagDetails2": {
+        "deviceId": "QAStaffRoomTag",
+        "type": "Staff Tag",
+        "manufacturer": "HID",
+        "model": "Beacon Card V4",
+        "floorName": "StaffFloor",
+        "locationName": "QaStaffRoom1",
+        "departmentName": "QA_StaffDepartment",
+        "buildingName": "BRACC",
+        "buildingId": "4sqr23Qxh8tjYlBKpCVPEI",
+        "previousRoomName": "QaStaffRoom2"
+    },
+    "staffDetails2": {
+        "deviceId": "QAStaffRoomTag",
+        "staffName": "QARoomOvercapacityStaff",
+        "staffType": "QAStaffType",
+        "staffId": "QA-Room",
+        "departmentName": "QA_StaffDepartment",
+        "buildingName": "BRACC",
+        "floorName": "StaffFloor",
+        "locationName": "QaStaffRoom1",
+        "valueDefault": "st st-staff"
+    },
+    "staffEmergencyRuleDetails": {
+        "ruleName": "Test_staff_Emergency",
+        "ruleType": "tagButton",
+        "alertType": "staffEmergency",
+        "isDept": false,
+        "isFloor": false
+    },
+    "roomDetails": {
+        "roomTypeName": "QA_StaffRoom",
+        "assetStatus": "Available",
+        "utilizationState": "Not Utilized",
+        "monitorCompliance": "No"
+    },
+    "locationDetails": {
+        "roomName_1": "QaStaffRoom1",
+        "roomName_2": "QaStaffRoom2",
+        "roomType": "QA_StaffRoom"
+    },
+    "floorDetails": {
+        "floorName": "StaffFloor",
+        "floorNumber": "s123"
+    },
+    "staffAlertTypes": {
+        "nonEmergencyAlert": {
+            "staffTagOffline": "Tag Offline",
+            "tagLowBattery": "Tag Low Battery"
+        },
+        "emergencyAlert": {
+            "staffEmergency": "Staff Emergency"
+        },
+    "batteryStatus": {
+      "batteryPercentage": 11,
+      "batteryStatus": "CRITICAL"
+    }
+    }
+}
