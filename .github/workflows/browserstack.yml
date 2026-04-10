@@ -45,17 +45,17 @@ jobs:
         with:
           node-version: 18
 
-      # WE REMOVED "npm ci" HERE TO SKIP THE BROKEN INSTALLATION
+      # Use a simple install to ensure the project structure is valid
+      - name: Install Dependencies
+        run: npm install
 
       - name: Run BrowserStack Cypress tests
         run: |
-          # We use "npx browserstack-cypress@latest" to force a fresh, clean download 
-          # of the CLI tool, bypassing your local node_modules.
-          
+          # The correct package name is browserstack-cypress-cli
           if [ "${{ github.event.inputs['browserstack-rerun-tests'] }}" != "" ]; then
             echo "Rerunning specific failed tests..."
-            npx browserstack-cypress@latest run --spec "${{ github.event.inputs['browserstack-rerun-tests'] }}" --sync
+            npx browserstack-cypress-cli run --spec "${{ github.event.inputs['browserstack-rerun-tests'] }}" --sync
           else
             echo "Running full regression suite..."
-            npx browserstack-cypress@latest run --spec "cypress/e2e/regressionSuites/desktop/prosightSafety/**/*.cy.js" --sync
+            npx browserstack-cypress-cli run --spec "cypress/e2e/regressionSuites/desktop/prosightSafety/**/*.cy.js" --sync
           fi
