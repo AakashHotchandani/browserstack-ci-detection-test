@@ -2,6 +2,10 @@ name: BrowserStack Cypress Tests
 
 on:
   workflow_dispatch:
+    inputs:
+      browserstack-rerun-tests:
+        description: 'Internal input for BrowserStack rerun'
+        required: false
   push:
     branches:
       - main
@@ -9,48 +13,52 @@ on:
   pull_request:
 
 env:
- BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
- BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
- SECRET_STAGE: ${{ secrets.SECRET_STAGE }}
- SECRET_DEV: ${{ secrets.SECRET_DEV }}
- API_KEY_STAGE: ${{ secrets.API_KEY_STAGE }}
- API_KEY_DEV: ${{ secrets.API_KEY_DEV }}
- PROJECT_ID_DEV: ${{ secrets.PROJECT_ID_DEV }}
- PROJECT_ID_STAGE: ${{ secrets.PROJECT_ID_STAGE }}
- SYSTEM_ID_STAGE: ${{ secrets.SYSTEM_ID_STAGE }}
- SYSTEM_ID_DEV: ${{ secrets.SYSTEM_ID_DEV }}
- HOSPITAL_ID_STAGE: ${{ secrets.HOSPITAL_ID_STAGE }}
- HOSPITAL_ID_DEV: ${{ secrets.HOSPITAL_ID_DEV }}
- ENVIRONMENT_BLUEPRINT_ID_STAGE: ${{ secrets.ENVIRONMENT_BLUEPRINT_ID_STAGE }}
- ENVIRONMENT_BLUEPRINT_ID_DEV: ${{ secrets.ENVIRONMENT_BLUEPRINT_ID_DEV }}
- STAFF_BLUEPRINT_ID_STAGE: ${{ secrets.STAFF_BLUEPRINT_ID_STAGE }}
- STAFF_BLUEPRINT_ID_DEV: ${{ secrets.STAFF_BLUEPRINT_ID_DEV }}
- ASSET_BLUEPRINT_ID_STAGE: ${{ secrets.ASSET_BLUEPRINT_ID_STAGE }}
- ASSET_BLUEPRINT_ID_DEV: ${{ secrets.ASSET_BLUEPRINT_ID_DEV }}
+  BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
+  BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
+  SECRET_STAGE: ${{ secrets.SECRET_STAGE }}
+  SECRET_DEV: ${{ secrets.SECRET_DEV }}
+  API_KEY_STAGE: ${{ secrets.API_KEY_STAGE }}
+  API_KEY_DEV: ${{ secrets.API_KEY_DEV }}
+  PROJECT_ID_DEV: ${{ secrets.PROJECT_ID_DEV }}
+  PROJECT_ID_STAGE: ${{ secrets.PROJECT_ID_STAGE }}
+  SYSTEM_ID_STAGE: ${{ secrets.SYSTEM_ID_STAGE }}
+  SYSTEM_ID_DEV: ${{ secrets.SYSTEM_ID_DEV }}
+  HOSPITAL_ID_STAGE: ${{ secrets.HOSPITAL_ID_STAGE }}
+  HOSPITAL_ID_DEV: ${{ secrets.HOSPITAL_ID_DEV }}
+  ENVIRONMENT_BLUEPRINT_ID_STAGE: ${{ secrets.ENVIRONMENT_BLUEPRINT_ID_STAGE }}
+  ENVIRONMENT_BLUEPRINT_ID_DEV: ${{ secrets.ENVIRONMENT_BLUEPRINT_ID_DEV }}
+  STAFF_BLUEPRINT_ID_STAGE: ${{ secrets.STAFF_BLUEPRINT_ID_STAGE }}
+  STAFF_BLUEPRINT_ID_DEV: ${{ secrets.STAFF_BLUEPRINT_ID_DEV }}
+  ASSET_BLUEPRINT_ID_STAGE: ${{ secrets.ASSET_BLUEPRINT_ID_STAGE }}
+  ASSET_BLUEPRINT_ID_DEV: ${{ secrets.ASSET_BLUEPRINT_ID_DEV }}
 
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repo
+      # 1️⃣ Checkout repo - copies your code to the runner
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      # 2️⃣ Setup Node
+      # 2️⃣ Setup Node - installs the engine to run JS
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
-          registry-url: 'https://registry.npmjs.org'
 
-      # 4️⃣ Install dependencies
+      # 3️⃣ Install dependencies - uses 'npm ci' for clean, consistent installs
       - name: Install dependencies
         run: npm ci
 
-      # 5️⃣ Run BrowserStack Cypress tests (specific file)
+      # 4️⃣ Run BrowserStack Cypress tests
+      # This block detects if it's a normal run or a rerun triggered from BrowserStack
       - name: Run BrowserStack Cypress tests
         run: |
-          npx browserstack-cypress run \
-          --spec "cypress/e2e/regressionSuites/desktop/prosightSafety/**/*.cy.js" \
-          --sync        
+          if [ "${{ github.event.inputs['browserstack-rerun-tests'] }}" != "" ]; then
+            echo "BrowserStack Rerun Triggered. Running failed specs only..."
+            npx browserstack-cypress run --spec "${{ github.event.inputs['browserstack-rerun-tests'] }}" --sync
+          else
+            echo "Starting full regression suite..."
+            npx browserstack-cypress run --spec "cypress/e2e/regressionSuites/desktop/prosightSafety/**/*.cy.js" --sync
+          fi
