@@ -37,29 +37,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repo - copies your code to the runner
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # 2️⃣ Setup Node - installs the engine to run JS
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-# 3️⃣ Install dependencies
-      - name: Install dependencies
-        run: |
-          npm install
-          npm install browserstack-cypress-cli --save-dev
+      # WE REMOVED "npm ci" HERE TO SKIP THE BROKEN INSTALLATION
 
-      # 4️⃣ Run BrowserStack Cypress tests
       - name: Run BrowserStack Cypress tests
         run: |
+          # We use "npx browserstack-cypress@latest" to force a fresh, clean download 
+          # of the CLI tool, bypassing your local node_modules.
+          
           if [ "${{ github.event.inputs['browserstack-rerun-tests'] }}" != "" ]; then
-            echo "BrowserStack Rerun Triggered. Running failed specs only..."
-            npx browserstack-cypress run --spec "${{ github.event.inputs['browserstack-rerun-tests'] }}" --sync
+            echo "Rerunning specific failed tests..."
+            npx browserstack-cypress@latest run --spec "${{ github.event.inputs['browserstack-rerun-tests'] }}" --sync
           else
-            echo "Starting full regression suite..."
-            npx browserstack-cypress run --spec "cypress/e2e/regressionSuites/desktop/prosightSafety/**/*.cy.js" --sync
+            echo "Running full regression suite..."
+            npx browserstack-cypress@latest run --spec "cypress/e2e/regressionSuites/desktop/prosightSafety/**/*.cy.js" --sync
           fi
