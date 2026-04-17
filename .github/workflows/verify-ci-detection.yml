@@ -1,0 +1,134 @@
+name: Verify CI Info Detection
+
+on:
+  workflow_dispatch:
+    inputs:
+      spec:
+        description: 'Spec file to run (optional)'
+        required: false
+        default: 'cypress/e2e/smokeSuites/admin.cy.js'
+  push:
+    branches: [ main, master, test-* ]
+
+jobs:
+  verify-ci-detection:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout test repository
+        uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+      
+      - name: Display GitHub Actions Environment
+        run: |
+          echo "========================================"
+          echo "GitHub Actions Environment Variables"
+          echo "========================================"
+          echo "CI: $CI"
+          echo "GITHUB_ACTIONS: $GITHUB_ACTIONS"
+          echo "GITHUB_WORKFLOW: $GITHUB_WORKFLOW"
+          echo "GITHUB_RUN_ID: $GITHUB_RUN_ID"
+          echo "GITHUB_RUN_NUMBER: $GITHUB_RUN_NUMBER"
+          echo "GITHUB_JOB: $GITHUB_JOB"
+          echo "GITHUB_REPOSITORY: $GITHUB_REPOSITORY"
+          echo "GITHUB_ACTOR: $GITHUB_ACTOR"
+          echo "GITHUB_SHA: $GITHUB_SHA"
+          echo "GITHUB_REF: $GITHUB_REF"
+          echo "GITHUB_SERVER_URL: $GITHUB_SERVER_URL"
+          echo "========================================"
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Install local browserstack-cypress-cli (if testing custom branch)
+        run: |
+          echo "Installing latest browserstack-cypress-cli..."
+          npm install browserstack-cypress-cli@latest
+          # Or to test from a specific branch:
+          # npm uninstall browserstack-cypress-cli
+          # npm install git+https://github.com/browserstack/browserstack-cypress-cli.git#your-branch-name
+      
+      - name: Verify CLI installation
+        run: |
+          npx browserstack-cypress --version
+          echo "CLI installed successfully"
+      
+      - name: Run BrowserStack Cypress with CI Detection
+        env:
+          BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
+          BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
+        run: |
+          echo "========================================="
+          echo "🚀 Running BrowserStack Cypress Tests"
+          echo "========================================="
+          echo "Expected CI Platform: GitHub Actions"
+          echo "Expected to see:"
+          echo "  - [NGROK_LOG] Status: 200 - [getCiInfo] GitHub Actions detected"
+          echo "  - [NGROK_LOG] TestHub CI info logged: 200"
+          echo "========================================="
+          echo ""
+          
+          npx browserstack-cypress run \
+            --specs "${{ github.event.inputs.spec || 'cypress/e2e/smokeSuites/admin.cy.js' }}" \
+            --sync || true
+          
+          echo ""
+          echo "========================================="
+          echo "✅ Test execution completed"
+          echo "========================================="
+      
+      - name: Check for CI Detection in Logs
+        if: always()
+        run: |
+          echo "========================================="
+          echo "Verifying CI Info Detection"
+          echo "========================================="
+          if grep -q "GitHub Actions" log/*.log 2>/dev/null; then
+            echo "✅ GitHub Actions detected in logs"
+          else
+            echo "❌ GitHub Actions not found in logs"
+          fi
+      
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-logs
+          path: |
+            log/
+            **/*.log
+          retention-days: 7
+      
+      - name: Job Summary
+        if: always()
+        run: |
+          echo "## 🎯 CI Info Detection Test Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Environment Details" >> $GITHUB_STEP_SUMMARY
+          echo "- **CI Platform**: GitHub Actions ✅" >> $GITHUB_STEP_SUMMARY
+          echo "- **Run ID**: $GITHUB_RUN_ID" >> $GITHUB_STEP_SUMMARY
+          echo "- **Run Number**: $GITHUB_RUN_NUMBER" >> $GITHUB_STEP_SUMMARY
+          echo "- **Workflow**: $GITHUB_WORKFLOW" >> $GITHUB_STEP_SUMMARY
+          echo "- **Repository**: $GITHUB_REPOSITORY" >> $GITHUB_STEP_SUMMARY
+          echo "- **Actor**: $GITHUB_ACTOR" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Expected CI Info Payload" >> $GITHUB_STEP_SUMMARY
+          echo '```json' >> $GITHUB_STEP_SUMMARY
+          echo '{' >> $GITHUB_STEP_SUMMARY
+          echo '  "name": "GitHub Actions",' >> $GITHUB_STEP_SUMMARY
+          echo '  "build_url": "'"$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"'",' >> $GITHUB_STEP_SUMMARY
+          echo '  "job_name": "'"$GITHUB_WORKFLOW"'",' >> $GITHUB_STEP_SUMMARY
+          echo '  "build_number": "'"$GITHUB_RUN_NUMBER"'"' >> $GITHUB_STEP_SUMMARY
+          echo '}' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### What to Check" >> $GITHUB_STEP_SUMMARY
+          echo "1. Look for log messages containing \`[NGROK_LOG]\` in the job output" >> $GITHUB_STEP_SUMMARY
+          echo "2. Verify \`GitHub Actions detected\` appears in logs" >> $GITHUB_STEP_SUMMARY
+          echo "3. Check Test Observability dashboard for CI info" >> $GITHUB_STEP_SUMMARY
+          echo "4. Download artifacts to see full logs" >> $GITHUB_STEP_SUMMARY
