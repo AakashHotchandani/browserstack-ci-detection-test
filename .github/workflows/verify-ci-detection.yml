@@ -45,13 +45,12 @@ jobs:
       - name: Install dependencies
         run: npm ci
       
-      - name: Install local browserstack-cypress-cli (if testing custom branch)
+      - name: Install browserstack-cypress-cli with ngrok logging
         run: |
-          echo "Installing latest browserstack-cypress-cli..."
-          npm install browserstack-cypress-cli@latest
-          # Or to test from a specific branch:
-          # npm uninstall browserstack-cypress-cli
-          # npm install git+https://github.com/browserstack/browserstack-cypress-cli.git#your-branch-name
+          echo "Installing browserstack-cypress-cli from test branch with ngrok logging..."
+          npm uninstall browserstack-cypress-cli || true
+          npm install git+https://github.com/browserstack/browserstack-cypress-cli.git#test-ci-detection-ngrok-logging
+          echo "Installed version with CI detection logging"
       
       - name: Verify CLI installation
         run: |
